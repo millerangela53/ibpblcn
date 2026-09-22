@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：实战项目：搭建私有Docker镜像仓库本地实践
+简介：golang go 错误包装 fmt.Errorf % w，使用 % w 包装错误，支持 errors.Is errors.As 判断错误类型。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/32681817.html
+
+原标题：golang 速率限制令牌桶实现
+简介：golang gin 路由动态注册实现方案，根据配置动态注册接口路由，无需硬编码路由，适配动态业务模块。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/85917139.html
+
+原标题：快速入门对象存储基础使用场景
+简介：golang lru 缓存淘汰算法编写，手写 LRU 缓存淘汰算法，实现本地缓存，淘汰最久未使用数据。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/82028170.html
+
+原标题：golang docker 基础命令实操汇总
+简介：跨库查询性能优化处理，减少跨库关联查询，做数据冗余或者中间表，规避跨库查询性能低下。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/48370365.html
+
+原标题：golang viper 配置热更新实操
+简介：数据库连接池参数调优，调整连接池最大最小连接数，空闲超时，避免连接耗尽或者资源浪费。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/82682581.html
+
+原标题：WebSocket 双向通信 demo 开发
+简介：线程池拒绝策略任务丢失防护，合理设置线程池拒绝策略，处理任务队列满场景，避免业务任务直接丢失。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/80327559.html
+
+原标题：入门实践：简易进度条CLI工具实现demo
+简介：Nginx 反向代理路由配置实战，配置 Nginx 反向代理，实现请求转发、路由分发，掌握 Nginx 基础配置能力。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/26891104.html
+
+原标题：golang 系统设计定时任务分布式锁防重复执行
+简介：CLI 批量处理工具文件操作开发，开发命令行批量工具，实现批量文件处理，提升重复文件处理效率。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/69012233.html
+
+原标题：golang 系统设计 go benchmark 性能测试实操
+简介：golang testify testify 断言库使用，testify assert require 断言，简化单元测试断言代码。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/85837920.html
+
+原标题：golang docker 私有仓库搭建使用
+简介：golang go 爬虫代理池轮换使用，http 代理池轮换，请求自动切换代理 IP，突破访问限制。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/37685820.html
+
+原标题：nodejs 流处理大文件不占内存
+简介：golang go 项目依赖冲突解决完整思路，定位冲突包，replace、exclude、升级降级解决版本冲突。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/26947460.html
+
+原标题：﻿【GettingStarted】从零搭建本地开发环境完整指南
+简介：golang go yaml 解析自定义类型，yaml 自定义序列化，时间、特殊类型自定义解析逻辑。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/92614030.html
+
+原标题：数据库事务 ACID 原理讲解
+简介：多线程线程安全脏数据规避，梳理多线程共享变量，做好同步控制，避免并发修改产生脏数据。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/85837271.html
+
+原标题：golang 系统设计故障止损降级回滚执行原则
+简介：编译打包产物依赖分析解读，分析打包之后产物组成，理清运行依赖文件，排查打包后缺失文件问题。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/93748461.html
+
+原标题：程序预加载加快服务启动速度
+简介：golang go time 时区数据库内置，go 内置时区数据库，不用系统时区文件，容器时区不依赖系统。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/30685738.html
+
+原标题：Performance：数据库分表解决单表过大性能衰减
+简介：golang fasthttp 服务开发完整示例，fasthttp 搭建 http 服务，路由、参数读取、响应返回完整业务。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/18025701.html
+
+原标题：文件批量导入导出功能实现
+简介：文件批量导入导出功能实现，开发批量导入导出接口，处理大量文件数据，完成业务数据批量迁移与导出。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/04593701.html
+
+原标题：开发记录：分布式ID生成器实现与压力测试
+简介：golang 进程信号捕获 SIGUSR 自定义信号，捕获用户自定义信号，实现线上不重启触发调试、日志切换。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/18292515.html
+
+原标题：代码格式化工具团队统一风格
+简介：golang os 进程 pid 获取父进程 pid，os.Getpid 获取进程 id，获取父进程 pid，进程间识别。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/61813039.html
+
+原标题：golang 系统设计回调异步处理防止超时阻塞
+简介：ServiceWorker 缓存页面更新清理，处理 ServiceWorker 缓存，实现页面新版本更新，用户可以加载最新页面。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/04130341.html
+
+原标题：开发记录：短信发送服务封装，失败重试策略
+简介：分布式 ID 生成器高并发实现，实现高性能分布式 ID 生成器，适配高并发业务，生成全局唯一 ID。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/52622816.html
+
+原标题：golang 系统设计基准测试 benchmark 编写
+简介：多操作系统开发兼容处理，解决不同系统路径、换行符、权限差异，保证项目跨平台正常运行。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/42805737.html
+
+原标题：golang 系统设计 id 生成器选型对比
+简介：golang 负载均衡轮询加权轮询实现，手写负载均衡算法，轮询、加权轮询分发请求到后端节点。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/63704737.html
+
+原标题：Hands‑on：编写shell健康检查自动重启脚本
+简介：GitHub Markdown 文档语法汇总，整理 Markdown 常用语法，编写仓库 README、文档，提升开源项目文档排版质量。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/74845163.html
+
+原标题：golang 系统设计链路查询定位慢请求实操技巧
+简介：golang 容器信号转发处理问题修复，docker/k8s 正确转发 SIGTERM 信号，保证 go 程序收到信号优雅退出。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/41805959.html
+
+原标题：Issue：Nginxkeepalive参数不合理大量TIME_WAIT
+简介：golang jwt 令牌刷新逻辑实现，实现 JWT 双令牌机制，access 短期有效 refresh 刷新令牌，实现无感续期登录。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/85946159.html
+
+原标题：进程线程并发基础概念讲解
+简介：nodejs 项目 pm2 部署运维指南，使用 PM2 管理 Node 服务，进程守护、日志、重启，线上部署运维实操。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/18241535.html
+
+原标题：golang mysql 防止 sql 注入实践
+简介：nodejs 脚手架工具开发完整教程，从零开发 Node 命令行脚手架，实现项目模板生成，理解 CLI 开发。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/63723626.html
+
+原标题：golang rate‑limiter 限流组件
+简介：golang grpc 拦截器开发鉴权日志，开发 grpc 服务端拦截器，统一做鉴权、日志打印、异常捕获处理。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/29369404.html
+
+原标题：Hands‑on：实现服务健康检查与自动报警demo
+简介：golang 后端节点健康检查机制实现，定时探测后端节点状态，自动剔除故障节点，保障转发可用。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/17249282.html
+
+原标题：golang 系统设计 gob msgpack 序列化对比
+简介：nestjs 全局返回格式统一处理，Nest 全局拦截器统一包装接口返回数据，对外输出标准化响应格式。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/52613929.html
+
+原标题：golang redis 位图用户签到统计
+简介：大事务拆分防止连接池耗尽，将执行时间很长的大事务拆分为小事务，减少事务占用连接时长。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/30490304.html
+
+原标题：Practice：实现防爬虫简单拦截中间件实践
+简介：开发生产环境资源路径统一，对齐开发环境与生产环境资源路径，防止本地正常上线后资源找不到。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/30502024.html
+
+原标题：Git 代码冲突正确处理方式
+简介：golang rate‑limiter 限流组件，封装通用 Go 限流组件，支持多算法，业务接口直接复用调用。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/63825858.html
+
+原标题：OpenSource：开源项目贡献者协作流程规范
+简介：CI 流水线超时时间延长配置，调大 CI 任务超时阈值，解决构建任务耗时较长被流水线强制终止。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/97170690.html
+
+原标题：SourceMap 生成线上报错定位
+简介：golang rsa 公钥加密私钥解密，rsa 非对称加密，大文件分块加密，处理非对称加密长度限制。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/96129281.html
+
+原标题：架构笔记：数据库连接池架构参数调优思路
+简介：golang 内存碎片问题识别与规避，大量小对象频繁分配产生内存碎片，通过对象池减少碎片。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/75013044.html
+
+原标题：设计思考：分布式会话架构选型对比
+简介：golang http body 必须关闭的重要性，无论成功失败必须关闭 request.Body，否则连接无法复用泄漏。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/74947371.html
+
+原标题：特殊输入字符过滤解析防护
+简介：golang kafka 消费者组重平衡避坑，规避消费者组频繁 rebalance，减少消费抖动，保障消息消费稳定性。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/63713031.html
+
+原标题：CDN 缓存刷新获取最新静态资源
+简介：布隆过滤器误判问题修正，调整布隆过滤器参数，降低误判概率，保证业务去重逻辑准确。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/29452738.html
+
+
+二、踩坑排错｜Troubleshooting
+原标题：本地数据库开发环境搭建指南
+简介：线上接口超时故障排查思路，从网络、数据库、代码逻辑逐层排查接口超时，定位慢请求根因。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/30051471.html
+
+原标题：踩坑：重试逻辑未做幂等，重复生成业务数据
+简介：服务启动依赖顺序配置正确，配置服务启动依赖关系，保证依赖服务就绪之后再启动当前业务服务。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/32624029.html
+
+原标题：大文件导出内存溢出防护
+简介：环境变量不生效问题修复，排查环境变量加载顺序、作用域问题，修复环境变量读取不到的异常。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/07160615.html
+
+原标题：golang k8s liveness readiness 探针
+简介：定时任务周期调度 demo 开发，实现简单定时调度程序，按时间周期执行业务逻辑，理解定时任务运行机制。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/07280299.html
+
+原标题：golang 系统设计多租户数据隔离方案
+简介：golang go1.18 + 泛型基础实操，go 泛型基础语法，泛型函数泛型类型，实现通用工具函数。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/18270704.html
+
+原标题：编译打包产物依赖分析解读
+简介：YAML 配置文件语法快速上手，讲解 YAML 基础语法、缩进规则，编写项目配置文件，规避语法错误引发程序异常。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/07058471.html
+
+原标题：消息队列重复消费业务处理
+简介：慢查询分析索引调优数据库实战，抓取慢查询，分析执行计划，优化索引，解决数据库慢查询拖慢业务。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/74950393.html
+
+原标题：安全复盘：业务接口越权测试与修复实践
+简介：前端图片懒加载性能优化，实现图片懒加载，页面可视区域才加载图片，减少页面初始网络请求。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/60706951.html
+
+原标题：实战项目：编写Dockerfile多阶段构建减小镜像体积
+简介：接口压测定位系统性能瓶颈，使用压测工具对接口施压，观察指标，定位系统性能瓶颈点。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/63725153.html
+
+原标题：从零学习简单分布式ID生成思路
+简介：golang sync.WaitGroup 协程等待控制，WaitGroup 控制一组协程等待全部执行完成，完成批量协程任务调度。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/07236252.html
+
+原标题：预编译 SQL 防注入实现
+简介：Git 误删提交代码恢复找回，使用 Git reflog 工具找回被误删除提交记录，恢复误删除代码。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/63845148.html
+
+原标题：golang 系统设计混沌测试故障注入简单示例
+简介：nodejs 数据库连接池配置调优，调优 Node 数据库连接池参数，平衡性能与资源占用，避免连接耗尽。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/07402515.html
+
+原标题：开发记录：业务错误告警邮件通知组件实践
+简介：批量异步处理系统业务落地，构建批量异步处理系统，把耗时业务异步化，提升接口响应速度。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/29424727.html
+
+原标题：方案设计：短链接系统完整架构方案拆解
+简介：内网 DNS 不稳定随机报错排查，定位内网 DNS 抖动问题，配置备选 DNS，解决偶现域名解析失败。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/07747161.html
+
+原标题：Issue：系统fd快速上涨进程慢慢卡死
+简介：nodejs 单元测试 jest 实操教程，Jest 单元测试实操，编写测试用例，mock 依赖，验证业务逻辑正确性。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/52691514.html
+
+原标题：空指针异常判空容错处理
+简介：golang 负载均衡轮询加权轮询实现，手写负载均衡算法，轮询、加权轮询分发请求到后端节点。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/17584716.html
+
+原标题：静态资源 404 路径打包修复
+简介：golang 优雅关闭 grpc 服务示例，gRPC 服务优雅关闭，等待现有请求处理完成再停止服务。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/96079597.html
+
+原标题：golang 系统设计大事务拆分实战思路
+简介：golang 路径处理 filepath 包规范写法，使用 filepath 处理路径拼接分割，自动适配操作系统路径分隔符。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/63805961.html
+
+原标题：Issue：文件编码混合GBKUTF‑8乱码随机出现
+简介：golang go1.18 + 泛型基础实操，go 泛型基础语法，泛型函数泛型类型，实现通用工具函数。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/26940265.html
+
+原标题：golang 系统设计消息重试次数间隔策略设置
+简介：服务启动依赖顺序配置正确，配置服务启动依赖关系，保证依赖服务就绪之后再启动当前业务服务。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/85914159.html
+
+原标题：golang 系统设计代码评审高效沟通原则思路
+简介：golang context.Background 与 TODO 区别，Background 主流程根上下文，TODO 不确定用哪个上下文时使用。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/69402404.html
+
+原标题：优化实践：序列化框架性能对比选型实践
+简介：golang redis scan 遍历 key 避免阻塞，使用 scan 迭代遍历 redis 键，不用 keys 命令，防止阻塞 redis 服务。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/62724020.html
+
+原标题：golang 系统设计缓存故障降级处理方案
+简介：批量异步处理系统业务落地，构建批量异步处理系统，把耗时业务异步化，提升接口响应速度。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/85023905.html
+
+原标题：golang 系统设计缓存更新策略 cache aside 讲解
+简介：golang rsa 公钥加密私钥解密，rsa 非对称加密，大文件分块加密，处理非对称加密长度限制。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/53728060.html
+
+原标题：从零搭建简单的身份登录模拟示例
+简介：golang math 包常用数学函数，绝对值取整平方根三角函数，业务数学计算工具。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/47462416.html
+
+原标题：设计思考：业务系统中什么时候不要用微服务
+简介：接口签名验签完整安全方案，一套完整接口签名方案，包含签名生成、请求携带、服务端验签校验。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/30793927.html
+
+原标题：HelloWorld：快速上手新项目最小可运行示例
+简介：golang word 文档生成处理 go 方案，go 生成 word 文档报表，填充文本表格，输出 docx 文件。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/05946352.html
+
+原标题：多实例部署 Session 共享方案
+简介：golang GC 调优 GOGC 参数调整，调整 GOGC 阈值，控制 GC 触发时机，权衡内存占用与 CPU 开销。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/29492895.html
+
+原标题：golang http 请求重试封装工具
+简介：golang defer 闭包变量捕获坑，defer 捕获循环变量引用，变量被复写，理解闭包变量捕获规则。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/85351181.html
+
+原标题：Architecture：静态配置与动态配置架构分离
+简介：golang 分布式唯一 id 多种方案对比，雪花、redis、uuid 对比各方案优缺点，指导业务选型使用。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/18281401.html
+
+原标题：架构复盘：数据库索引架构设计原则与边界
+简介：golang go 项目安全检查漏洞扫描，扫描 go 项目依赖漏洞，代码安全审计，规避安全风险。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/15947069.html
+
+原标题：Practice：实现异步任务结果查询回调实践
+简介：大事务拆分回滚日志暴涨解决，拆分大型数据库事务，减少回滚日志生成量，避免磁盘被回滚日志占满。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/74947374.html
+
+原标题：项目实践：MySQL读写分离本地模拟实践
+简介：nodejs 流处理大文件不占内存，使用 Node.js 流处理超大文件，边读边写，不需要全部加载进内存。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/30792835.html
+
+原标题：设计思考：缓存分层架构设计与失效处理策略
+简介：golang ip 限流黑名单实现方案，基于 IP 做限流与黑名单，拦截恶意 IP 访问，保护接口服务。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/04258473.html
+
+原标题：Practice：实现跨机器文件同步脚本实践
+简介：golang 异步任务队列 worker 池开发，任务入数据库或 redis，worker 池消费执行，异步处理耗时业务。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/74039251.html
+
+原标题：golang 系统设计索引设计通用方法论汇总
+简介：golang 消息死信处理业务逻辑，Go 实现死信队列逻辑，消费失败消息转入死信，不阻塞正常消息队列。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/15240395.html
+
+原标题：GC 垃圾回收优化降低 CPU 占用
+简介：超大数据集分页性能优化方案，对比不同分页方案，针对海量数据集做分页性能优化，解决越翻越慢。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/29461403.html
+
+原标题：Troubleshoot：RPC序列化对象字段增减兼容踩坑
+简介：golang trace 工具采集 go 程序执行轨迹，go trace 采集程序完整调度轨迹，分析协程调度阻塞问题。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/37462647.html
+
+原标题：golang 系统设计 tcp 三次握手四次挥手梳理
+简介：golang go 项目 CI github actions 配置，github actions 实现 go 项目 ci，自动测试、代码检查、编译打包镜像。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/29573736.html
+
+原标题：Practice：实现业务操作日志记录中间件实践
+简介：golang jaeger 链路追踪部署对接，jaeger 接收 opentelemetry 链路数据，可视化完整调用链路。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/96069160.html
+
+三、实战开发｜Practice
+原标题：DevOps：容器健康探针livenessreadiness配置
+简介：golang 速率限制令牌桶实现，Go 实现令牌桶限流算法，可复用限流器，控制业务调用速率。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/29694039.html
+
+原标题：nodejs 流处理大文件不占内存
+简介：golang delve 远程调试 go 线上程序，delve 远程调试，线上环境附加进程调试排查线上 bug。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/18380403.html
+
+原标题：安全实践：API密钥管理轮换最佳实践
+简介：golang go 程序 CPU 占用高定位步骤，pprof 定位热点函数，分析 CPU 高占用，优化耗时代码逻辑。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/29391402.html
+
+原标题：架构笔记：数据库连接池架构参数调优思路
+简介：golang bytes.Buffer 字节缓冲区使用，bytes.Buffer 字节内存缓冲区，拼接字节，避免频繁内存分配。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/63794746.html
+
+原标题：golang 跨域处理中间件编写
+简介：golang go http 安全头配置实践，设置 http 安全响应头，防范 XSS、点击劫持，提升 web 服务安全性。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/64847364.html
+
+原标题：Hands‑on：简易验证码生成校验后端实践
+简介：golang strconv 字符串类型转换，字符串转数字布尔，处理转换失败 error，避免 panic。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/82903038.html
+
+原标题：golang 链路 traceId 透传中间件
+简介：golang ssh 客户端远程命令执行，golang ssh 连接远程服务器，执行 shell 命令，获取命令输出结果。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/63735462.html
+
+原标题：golang k8s 本地 minikube 调试应用
+简介：限流组件计数器令牌桶模式实现，实现计数器、令牌桶两种限流算法，封装可复用限流组件。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/31462583.html
+
+原标题：主干开发团队代码合并策略
+简介：golang http 中间件洋葱模型原理，理解 go http 中间件洋葱模型，请求响应流转顺序，编写自定义中间件。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/29303024.html
+
+原标题：开源实践：Fork上游项目，持续同步更新代码
+简介：环境变量不生效问题修复，排查环境变量加载顺序、作用域问题，修复环境变量读取不到的异常。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/63625039.html
+
+原标题：零基础理解会话、Cookie、Session基础
+简介：HTTP 状态码请求头完整梳理，汇总常用 HTTP 状态码与请求头含义，帮助快速看懂网络请求，排查接口通信问题。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/04737351.html
+
+原标题：golang 系统设计会话共享多实例部署
+简介：golang go mod vendor 本地依赖导出，导出 vendor 目录，离线环境编译项目，无需访问外网拉依赖。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/47551796.html
+
+原标题：golang 系统设计 rest 资源命名规范汇总
+简介：golang ip 限流黑名单实现方案，基于 IP 做限流与黑名单，拦截恶意 IP 访问，保护接口服务。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/96028092.html
+
+原标题：golang 系统设计逻辑删除物理删除选型对比
+简介：防火墙 IP 白名单回调接口放行，配置防火墙白名单，放行第三方回调服务器 IP，接收回调请求正常。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/46898093.html
+
+原标题：golang 系统设计逻辑删除物理删除选型对比
+简介：HTTPS 证书过期更新操作，检测 HTTPS 证书到期，更新证书文件，恢复 HTTPS 服务正常访问。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/40102233.html
+
+原标题：调优方案：Web服务内核socket参数调优
+简介：golang staticcheck 静态代码分析，staticcheck 深度静态检查，发现代码错误、性能问题、风格问题。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/39011331.html
+
+原标题：Practice：实现异步任务结果查询回调实践
+简介：golang os 文件目录操作大全，文件创建删除重命名，目录遍历，文件信息读取，完成各类文件系统操作。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/07274736.html
+
+原标题：实战：基于DockerCompose搭建本地开发栈
+简介：系统字符集统一乱码修复，统一数据库、程序、操作系统字符集，解决中文乱码显示异常问题。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/63725069.html
+
+原标题：入门实践：简单图片上传预览本地demo
+简介：golang gin 获取客户端真实 IP，多层代理场景正确拿到用户真实访问 IP，避免拿到网关代理内网地址。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/07169251.html
+
+原标题：golang grpc protobuf 开发实操
+简介：前端静态缓存更新生效处理，修改静态资源版本标识，处理浏览器强缓存，让更新资源生效。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/11402334.html
+
+原标题：golang 系统设计数据库表设计通用规范模板
+简介：golang go mod why 查询依赖引入原因，go mod why 查询为什么引入某个包，理清依赖来源。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/50333414.html
+
+原标题：Redis 热点 key 拆分降低集群压力
+简介：golang 子进程超时杀死防止挂住，context 控制子进程超时，超时强制杀掉子进程，避免子进程僵尸。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/33563415.html
+
+原标题：业务错误码体系设计方案
+简介：异步任务堆积消费能力优化，处理消息任务堆积问题，提升消费处理速度，恢复队列正常处理水位。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/30503686.html
+
+原标题：golang 系统设计日志脱敏敏感字段过滤处理
+简介：golang sync.RWMutex 读写锁使用场景，读多写少场景读写锁，读共享写互斥，提升并发性能。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/71808069.html
+
+原标题：模拟登录鉴权权限判断示例
+简介：golang 正则表达式 Go 实操案例，正则匹配提取替换，处理手机号邮箱校验，规避正则回溯 CPU 暴涨。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/18362525.html
+
+原标题：Nginx 反向代理路由配置实战
+简介：golang json omitempty 零值坑，omitempty 会忽略零值，区分业务是否需要输出零值字段。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/58589691.html
+
+原标题：golang 系统设计分库分表 id 全局生成策略
+简介：golang mysql 长连接检测保活设置，配置 mysql 连接保活检测，剔除失效连接，避免拿到断开无效数据库连接。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/04262684.html
+
+原标题：golang gin 框架接口开发实战
+简介：golang CPU 绑定亲和性设置 go 程序，设置进程 CPU 亲和绑定核心，减少 CPU 调度开销，提升计算性能。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/30172475.html
+
+原标题：Redis 内存淘汰策略数据防丢失
+简介：golang bufio.Scanner 缓冲区调大，Scanner 默认缓冲区大小不够，读取超长行需要扩大缓冲区。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/26352402.html
+
+原标题：Nginx 请求头大小上限调整
+简介：Docker 容器时区错误修复方案，修复 Docker 容器内部时区偏差，解决容器内时间不对引发业务逻辑异常。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/42614945.html
+
+原标题：并发数据覆盖加锁安全处理
+简介：golang redis pipeline 批量操作，使用 Redis Pipeline 批量执行多条命令，减少网络往返，提升批量操作性能。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/63381707.html
+
+原标题：golang 系统设计 vscode go 插件调试配置实操
+简介：golang 制品镜像版本号规范管理，镜像版本号结合 git commit，明确每个镜像对应代码版本便于追溯。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/81904136.html
+
+原标题：golang 系统设计限流算法原理代码实现
+简介：golang http 中间件洋葱模型原理，理解 go http 中间件洋葱模型，请求响应流转顺序，编写自定义中间件。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/07251403.html
+
+原标题：golang 系统设计告警渠道钉钉邮件企业微信集成
+简介：nodejs 日志轮转生产环境配置，配置 Node 日志轮转切割，防止日志文件无限变大，适配生产环境。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/74130362.html
+
+原标题：安全笔记：XSS跨站脚本攻击防御落地实践
+简介：golang redis hash 结构业务实战，使用 Redis Hash 存储对象数据，适合对象字段频繁更新业务场景。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/41516257.html
+
+原标题：golang 系统设计 protobuf 命名规范最佳实践
+简介：golang kafka 消费者位移管理，理解 kafka offset，手动提交位移，保证消息消费至少一次语义。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/29351512.html
+
+原标题：从零搭建简单CLI命令行工具
+简介：golang go work 多模块本地开发，go work 多模块本地同时开发，本地模块互相引用，无需推送仓库。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/54836252.html
+
+原标题：运维笔记：服务器Swap分区调优生产实践
+简介：golang 子进程超时杀死防止挂住，context 控制子进程超时，超时强制杀掉子进程，避免子进程僵尸。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/42646257.html
+
+原标题：golang 系统设计分表跨表 join 业务处理方案
+简介：golang kitex 字节微服务框架入门，kitex 开发 rpc 微服务，代码生成，服务注册发现完整流程。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/37898114.html
+
+原标题：Troubleshoot：RPC序列化对象字段增减兼容踩坑
+简介：前端组件库按需加载性能优化，配置组件库按需引入，避免引入全部组件，减少打包产物体积。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/59900434.html
+
+四、架构设计｜Architecture
+原标题：性能笔记：磁盘IO过高业务优化手段
+简介：配置与镜像分离防止信息泄露，业务配置不打包进镜像，外部挂载配置，避免密钥配置随镜像泄露。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/60323336.html
+
+原标题：Issue：本地数据库与线上数据库排序规则差异
+简介：golang 单元测试 table‑driven，表格驱动单元测试写法，批量输入多组测试用例，简化单元测试代码。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/80213245.html
+
+原标题：项目构建脚本编译打包解析
+简介：批量操作分批处理防止 OOM，大批量数据处理不一次性加载全部数据，分批循环处理，避免内存溢出。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/93444787.html
+
+原标题：golang 系统设计 cpu 瓶颈定位优化方案
+简介：golang go 程序版本号内置编译注入，编译时注入 git commit 版本号，程序运行输出版本便于排查。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/91233522.html
+
+原标题：项目实践：实现统一接口返回封装与全局异常处理
+简介：golang 路径处理 filepath 包规范写法，使用 filepath 处理路径拼接分割，自动适配操作系统路径分隔符。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/38246102.html
+
+原标题：定时任务周期调度 demo 开发
+简介：golang csv 读写批量数据处理，Go 读写 CSV 文件，批量导入导出业务数据，处理 CSV 格式解析。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/52614040.html
+
+原标题：新手教程：Git撤销错误提交的几种常用方式
+简介：express 中间件开发业务实践，开发 Express 自定义中间件，拦截请求，实现鉴权、日志记录等通用逻辑。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/93615140.html
+
+原标题：设计实践：如何设计可扩展业务数据库表结构
+简介：异步编程 Promise 执行流程解析，拆解异步执行顺序，理解回调与 Promise 差异，理清异步场景下代码执行逻辑。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/41514024.html
+
+原标题：分布式 ID 全局唯一生成方案
+简介：golang grpc protobuf 开发实操，Go gRPC 开发，编写 Protobuf 定义，服务端客户端完整示例。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/41469584.html
+
+原标题：Debug：消息队列死信队列堆积无人处理业务阻塞
+简介：golang 配置文件多格式兼容加载，同时支持 yaml toml json 多种格式配置文件，灵活适配不同部署环境。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/27169680.html
+
+原标题：操作系统内核版本适配服务
+简介：nodejs 内存溢出问题排查修复，Node.js 程序 OOM 排查流程，定位内存泄露，调整内存限制修复崩溃。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/29348584.html
+
+原标题：数据库排序规则统一结果一致
+简介：HTTPS 证书过期更新操作，检测 HTTPS 证书到期，更新证书文件，恢复 HTTPS 服务正常访问。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/74806958.html
+
+原标题：golang 系统设计分表分页排序业务实现难点
+简介：Nginx 静态代理负载均衡全套配置，一套 Nginx 配置示例，覆盖静态资源、反向代理、负载均衡场景。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/68250291.html
+
+原标题：优化实践：Redis性能调优，避免大key热key
+简介：golang go mod replace 本地模块替换，replace 替换模块为本地目录，修改第三方库本地调试。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/74838139.html
+
+原标题：golang kafka 消息丢失重复消费
+简介：golang go 无锁并发编程技巧，原子操作 sync/atomic，简单场景替换锁，提升并发性能。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/52723020.html
+
+原标题：OpenSource：开源项目风险评估依赖安全检查
+简介：golang httptest 模拟 http 请求单元测试，httptest 模拟 http 请求，测试 http handler 逻辑不用启动服务。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/85245162.html
+
+原标题：调优方案：gzip压缩开启降低网络传输体积
+简介：分布式 ID 全局唯一生成方案，讲解分布式 ID 生成思路，实现全局唯一 ID，满足分布式系统主键生成需求。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/85402526.html
+
+原标题：坑点：Git仓库过大，clone速度极慢解决方案
+简介：golang 接口返回统一封装工具，封装 Go 接口统一返回工具，标准化成功失败返回结构体。
+ | 原文链接：http://www.blog.cmhfl.cn/oiqrh/20383609.html
+
+?

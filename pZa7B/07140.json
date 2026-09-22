@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：安全笔记：CSP内容安全策略配置实践
+简介：预编译 SQL 防注入实现，使用预编译 SQL 方式，杜绝 SQL 注入风险，提升数据库访问层安全能力。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/41836250.html
+
+原标题：golang 系统设计第三方接口调用封装思路
+简介：vue pinia 状态管理实战教程，Pinia 完整实战示例，实现状态定义修改，模块拆分替代 Vuex。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/47583619.html
+
+原标题：golang 分布式上下文传递方案
+简介：golang context 超时取消实战案例，使用 context 控制协程、http 请求超时，自动终止超时任务，避免协程无限阻塞。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/59694060.html
+
+原标题：设计思考：业务系统如何做故障隔离架构
+简介：CI 持续集成自动构建流程，讲解 CI 基础概念，配置流水线实现代码提交后自动构建、测试，提升交付自动化。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/29482938.html
+
+原标题：golang 系统设计第三方 sdk 二次封装技巧
+简介：内网测试服务搭建团队调试，配置本地服务内网可访问，团队成员能够访问调试，方便前后端联调与内部演示。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/48584849.html
+
+原标题：golang docker 部署 redis 配置要点
+简介：nodejs 流处理大文件不占内存，使用 Node.js 流处理超大文件，边读边写，不需要全部加载进内存。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/30583639.html
+
+原标题：实践：接口参数自动校验业务落地实践
+简介：golang 消息队列中间件选型对比，kafka redis‑stream rabbitmq，对比吞吐量可靠性选型参考。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/15079585.html
+
+原标题：golang consul 健康检查服务注册
+简介：多规则数据脱敏组件开发，封装通用脱敏组件，支持多种脱敏规则，项目多处复用脱敏逻辑。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/84250383.html
+
+原标题：无用对象回收抑制内存上涨
+简介：golang 探测文件真实内容类型，读取文件头部字节判断真实文件格式，规避后缀伪造。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/85252697.html
+
+原标题：golang mock 单元测试编写技巧
+简介：golang rabbitmq 死信队列延迟消息，rabbitmq 实现死信、延迟消息，处理延时业务场景。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/41583730.html
+
+原标题：热更新开发环境配置教程
+简介：golang sync.Pool 对象池复用对象，sync.Pool 复用临时对象，减少内存分配，降低 GC 频率提升性能。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/96039283.html
+
+原标题：多规则数据脱敏组件开发
+简介：golang sync.Map 适用场景与性能对比，读多写少，离散 key，对比普通 map 加锁性能差异。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/59694848.html
+
+原标题：排错：多实例部署session共享失效登录失效
+简介：nestjs 权限守卫鉴权实现方案，使用 Nest 守卫实现接口鉴权，角色权限控制，拦截未授权接口访问。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/19471404.html
+
+原标题：vite 项目配置与构建提速技巧
+简介：golang go 依赖漏洞检测 govulncheck，govulncheck 扫描依赖安全漏洞，发现项目供应链风险。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/60827060.html
+
+原标题：5分钟快速搭建个人技术文档站点
+简介：从零编写简易 CLI 命令行工具，通过实战案例实现基础命令交互，理解命令行程序执行逻辑，产出可运行小工具。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/96051696.html
+
+原标题：开发记录：实现完整用户登录鉴权业务模块
+简介：golang k8s informer 机制原理理解，informer 监听 k8s 资源变更，本地缓存，减少 apiserver 压力。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/71816950.html
+
+原标题：Redis 分布式锁高并发安全实现
+简介：golang context.Background 与 TODO 区别，Background 主流程根上下文，TODO 不确定用哪个上下文时使用。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/63835040.html
+
+原标题：golang 系统设计消息 key 选择保证顺序性方案
+简介：多操作系统开发兼容处理，解决不同系统路径、换行符、权限差异，保证项目跨平台正常运行。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/59682803.html
+
+原标题：Performance：避免循环查询N+1问题完整优化
+简介：golang go 包循环导入报错解决，A 导入 B B 导入 A，循环导入报错，重构代码拆分包消除循环依赖。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/07138181.html
+
+原标题：内存溢出问题现象识别排查
+简介：golang gorm 批量插入性能调优，GORM 批量插入优化，调整批次大小，提升大量数据插入数据库速度。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/19291707.html
+
+原标题：golang 系统设计灰度发布流量切分实现
+简介：依赖安装失败全方位排错，从网络、镜像源、权限、版本多角度，定位依赖安装失败，给出对应修复手段。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/85016859.html
+
+原标题：golang gorm ORM 数据库操作
+简介：golang go 第三方库选型评估要点，评估库活跃度维护情况、性能、依赖数量，选择合适开源库。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/63815869.html
+
+原标题：安全笔记：HTTPSTLS配置安全加固实践
+简介：项目依赖安全扫描漏洞防范，扫描项目第三方依赖包，修复存在安全漏洞依赖，防范供应链攻击。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/30491738.html
+
+原标题：Redis 大 key 拆分集群卡顿解决
+简介：golang go mod why 查询依赖引入原因，go mod why 查询为什么引入某个包，理清依赖来源。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/52634142.html
+
+原标题：golang defer panic 异常处理
+简介：golang json omitempty 零值坑，omitempty 会忽略零值，区分业务是否需要输出零值字段。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/74846362.html
+
+原标题：golang 系统设计内部服务 mock 集成测试方案
+简介：Git 代码冲突正确处理方式，讲解冲突产生场景，演示冲突文件修改，正确合并代码，防止代码丢失。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/93038170.html
+
+原标题：排错：多实例部署session共享失效登录失效
+简介：golang redis 客户端业务使用，Go Redis 客户端对接，实现缓存、计数器，适配各类 Redis 业务场景。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/43906797.html
+
+原标题：5分钟快速搭建个人技术文档站点
+简介：RPC 报文大小上限调优大请求，调大 RPC 框架报文最大限制，支持传输大体积请求报文不被截断。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/87018979.html
+
+原标题：项目实践：Docker多环境镜像构建策略实践
+简介：后端分页查询逻辑代码实现，编写后端分页接口，处理页码、每页条数参数，优化大数据量查询返回结果。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/65890180.html
+
+原标题：部署实践：告警收敛避免告警风暴配置
+简介：golang 项目 go mod 依赖管理，Go Mod 管理项目依赖，下载、升级、清理依赖，解决依赖版本管理。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/74949280.html
+
+原标题：架构笔记：OAuth2授权服务架构模式拆解
+简介：CLI 批量处理工具文件操作开发，开发命令行批量工具，实现批量文件处理，提升重复文件处理效率。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/19361514.html
+
+原标题：golang 接口限流中间件开发
+简介：golang gorm ORM 数据库操作，GORM 实操数据库 CRUD，模型定义，关联查询，简化 Go 数据库开发。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/28683625.html
+
+原标题：全量回归测试提升代码质量
+简介：golang k8s 客户端 client‑go 简单示例，client‑go 操作 k8s 资源，增删改查 pod deployment 等资源对象。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/18391709.html
+
+原标题：全平台系统环境变量配置
+简介：golang staticcheck 静态代码分析，staticcheck 深度静态检查，发现代码错误、性能问题、风格问题。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/29482736.html
+
+原标题：golang 系统设计磁盘满故障应急处理步骤
+简介：本地运行正常线上报错排查，对比本地与线上环境差异，从配置、系统版本、文件权限定位线上独有的 bug。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/18241702.html
+
+原标题：golang 告警推送钉钉机器人实现
+简介：代理 HTTPS 证书访问异常处理，配置代理根证书，解决代理环境 HTTPS 证书校验失败无法访问外网。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/20495736.html
+
+原标题：nodejs 日志轮转生产环境配置
+简介：golang go 程序敏感信息禁止打印日志，密钥密码禁止输出日志，防止敏感信息日志泄露。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/74867484.html
+
+原标题：服务熔断防止故障级联传播
+简介：golang grafana 面板 go 业务指标可视化，prometheus 指标对接 grafana，配置监控面板可视化业务状态。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/27583625.html
+
+原标题：避坑：定时任务重复执行带来业务脏数据
+简介：golang 内存持续上涨定位思路，区分内存泄漏、缓存占用、GC 参数不合理，分步定位内存持续走高。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/30402936.html
+
+原标题：入门实践：本地简单代理服务搭建
+简介：OAuth2 第三方登录服务搭建，搭建 OAuth2 服务，支持第三方账号登录，实现授权登录能力。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/29474902.html
+
+
+二、踩坑排错｜Troubleshooting
+原标题：实战项目：百万日志文件解析处理脚本实践
+简介：golang recover 捕获 panic 使用边界，recover 只在 defer 内部生效，协程内部必须捕获本协程 panic。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/76034040.html
+
+原标题：开发复盘：批量任务进度持久化实现方案
+简介：golang grpc metadata 元数据透传，metadata 传递 traceId、鉴权信息，全链路透传上下文信息。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/59662813.html
+
+原标题：golang 系统设计事务消息 rocketmq 简单原理
+简介：golang 分库分表 id 路由规则设计，分库分表 id 路由算法，id 映射库表，数据均匀打散避免热点分片。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/18257384.html
+
+原标题：Redis 大 key 拆分集群卡顿解决
+简介：golang race 检测器性能开销，race 检测器有性能损耗，只用于测试环境，禁止生产开启 race。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/74927362.html
+
+原标题：性能笔记：数据库表字段设计影响查询性能
+简介：缓存基础原理与简单代码实现，讲解缓存设计思路，编写简易缓存逻辑，减少重复计算与重复请求，提升程序响应速度。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/87257362.html
+
+原标题：golang 系统设计网络超时故障排查思路
+简介：golang hystrix 模式简易熔断实现，简易熔断组件，错误率达到阈值触发熔断，快速失败保护下游。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/15466251.html
+
+原标题：golang dockerfile 多阶段构建详解
+简介：golang go 终端 pty 伪终端操作，pty 启动子进程，模拟终端交互，实现交互式命令调用。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/41573686.html
+
+原标题：golang prometheus 指标暴露实现
+简介：请求工具封装统一异常处理，对网络请求做二次封装，统一捕获各类请求异常，标准化接口返回格式。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/29492816.html
+
+原标题：golang 系统设计 git 分支流程 gitflow 实操
+简介：golang arp 缓存读取操作，读取系统 arp 缓存表，获取 ip 对应的 mac 地址信息。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/36450391.html
+
+原标题：程序性能指标 CPU 内存监控
+简介：golang makefile 多平台编译脚本，makefile 一键交叉编译多平台二进制，打包镜像，执行测试。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/29694746.html
+
+原标题：golang 系统设计埋点数据上报方案
+简介：golang gorm select 指定查询字段，指定查询字段，避免查询全部字段，减少数据传输，提升查询性能。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/97150303.html
+
+原标题：golang redis zset 排行榜业务实现
+简介：golang redis bitmap 位图业务实战，bitmap 做签到统计、用户状态标记，节省大量内存空间。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/63706958.html
+
+原标题：golang 系统设计滑动窗口限流代码示例
+简介：golang go mod tidy 依赖清理，go mod tidy 自动增删依赖，整理 go.mod go.sum 文件。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/63724040.html
+
+原标题：golang 系统设计告警分级 p0‑p3 定义处理流程
+简介：golang go 基准测试 benchmark 编写，Benchmark 性能基准测试，测量函数执行耗时内存分配情况。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/07251472.html
+
+原标题：golang k8s 滚动更新回滚策略
+简介：golang testify testify 断言库使用，testify assert require 断言，简化单元测试断言代码。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/52906950.html
+
+原标题：golang 开发环境快速搭建指南
+简介：golang go 程序容器资源 requests limits，设置容器 cpu 内存配额，防止实例抢占集群资源，稳定调度。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/96272573.html
+
+原标题：文件句柄耗尽资源泄露处理
+简介：业务幂等键设计防重复逻辑，讲解幂等键设计思路，选择合适业务字段作为幂等标识，实现可靠防重复。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/97178484.html
+
+原标题：golang 系统设计大流量削峰处理方案
+简介：语义化版本依赖管理防错乱，项目依赖遵循语义版本约束，规避依赖自动升级引入不兼容变更。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/85138470.html
+
+原标题：GitHub Markdown 文档语法汇总
+简介：golang os.Signal 信号监听完整示例，signal.Notify 监听信号，缓冲 channel 防止信号丢失。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/07272584.html
+
+原标题：Hands‑on：简易图片压缩处理服务demo
+简介：golang 终端交互式输入选择，命令行交互式问答选择输入，实现交互式脚本工具。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/60827160.html
+
+原标题：golang 系统设计海量数据分页查询
+简介：golang 模糊测试 go fuzz 基础编写，Fuzz 测试函数，自动生成随机输入，发现代码崩溃 panic。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/64838140.html
+
+原标题：实践：消息队列死信处理业务落地实践
+简介：nestjs 权限守卫鉴权实现方案，使用 Nest 守卫实现接口鉴权，角色权限控制，拦截未授权接口访问。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/86160703.html
+
+原标题：golang 系统设计数据库连接池调优实践
+简介：golang 表单文件大小限制配置，限制表单上传文件最大体积，拦截超大文件上传请求，保护服务。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/96161473.html
+
+原标题：golang redis 位图用户签到统计
+简介：内网 DNS 不稳定随机报错排查，定位内网 DNS 抖动问题，配置备选 DNS，解决偶现域名解析失败。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/63827069.html
+
+原标题：golang 系统设计性能瓶颈定位完整方法论
+简介：操作系统内核版本适配服务，针对服务运行要求，适配操作系统内核版本，规避内核兼容 bug。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/07382513.html
+
+原标题：golang mysql 分表自增 id 方案
+简介：golang gorm select 指定查询字段，指定查询字段，避免查询全部字段，减少数据传输，提升查询性能。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/18262513.html
+
+原标题：CORS 跨域问题多种解决方案
+简介：特殊输入字符过滤解析防护，过滤用户输入特殊字符，防止解析报错，规避恶意字符带来业务异常。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/53725140.html
+
+原标题：安全实践：最小权限原则数据库账号管控
+简介：大事务拆分防止连接池耗尽，将执行时间很长的大事务拆分为小事务，减少事务占用连接时长。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/07170617.html
+
+原标题：Practice：实现IP黑名单拦截中间件实践
+简介：golang 数据库连接池泄露检测逻辑，监控连接池状态，检测连接长时间未归还，告警连接泄漏问题。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/15340292.html
+
+原标题：nestjs 框架模块化项目搭建
+简介：golang nats 轻量消息队列 go 开发，nats 高性能轻量消息系统，发布订阅模式异步解耦业务。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/53627359.html
+
+原标题：Security：限流防爬虫防恶意攻击防护体系
+简介：golang 链路追踪简易实现方案，简易链路追踪实现，传递 traceId，记录调用链路，方便排查慢调用。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/29391817.html
+
+原标题：Git 混乱提交历史清理方法
+简介：golang redis scan 遍历 key 避免阻塞，使用 scan 迭代遍历 redis 键，不用 keys 命令，防止阻塞 redis 服务。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/29503625.html
+
+原标题：项目实践：多租户数据隔离三种方案实操对比
+简介：golang go mod graph 可视化依赖图，可视化 go 依赖关系，直观看到包之间依赖，定位冲突。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/63836162.html
+
+原标题：开发记录：分布式ID生成器实现与压力测试
+简介：golang net/http/httptest 服务端模拟，httptest.NewRecorder 记录 handler 响应，校验返回状态码 body。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/59796928.html
+
+原标题：golang redis 锁超时业务处理
+简介：CI 流水线超时时间延长配置，调大 CI 任务超时阈值，解决构建任务耗时较长被流水线强制终止。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/84835140.html
+
+原标题：golang 系统设计线上日志快速检索技巧
+简介：Nginx 透传真实客户端 IP 配置，配置 Nginx 把真实客户端 IP 传递后端服务，后端拿到访问者真实 IP。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/74958574.html
+
+原标题：golang 系统设计密码存储哈希加盐实现
+简介：新手参与开源社区贡献指南，介绍开源社区基础规则，讲解阅读 issue、提交 PR 流程，指导开发者参与开源贡献。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/41806959.html
+
+原标题：golang 系统设计 canary 金丝雀部署实操
+简介：开发生产环境资源路径统一，对齐开发环境与生产环境资源路径，防止本地正常上线后资源找不到。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/15069584.html
+
+原标题：开发记录：服务优雅关闭释放资源完整实现
+简介：golang feishu 飞书机器人消息发送，调用飞书 webhook 机器人，发送文本卡片消息，实现业务告警通知。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/74836237.html
+
+原标题：golang 系统设计采样策略降低链路存储开销
+简介：webpack chunk 分包策略详解，讲解 webpack chunk 分包策略，拆分第三方包与业务代码，优化缓存复用。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/82917058.html
+
+三、实战开发｜Practice
+原标题：AI‑Dev：AI辅助编码高效使用提示词技巧
+简介：静态博客部署 GitHub Pages 教程，将静态博客项目部署至 GitHub Pages，完成线上访问，快速搭建个人技术博客站点。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/98584625.html
+
+原标题：异步异常捕获避免进程崩溃
+简介：golang sync/atomic 原子操作使用注意，理解原子操作内存顺序，规避原子操作错误使用带来 bug。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/18503625.html
+
+原标题：golang k8s 命名空间资源隔离方案
+简介：golang go‑pg postgres 客户端实操，go‑pg 操作 PostgreSQL 数据库，CRUD 关联查询业务开发。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/47472847.html
+
+原标题：方案设计：高可用Redis集群架构选型对比
+简介：golang tar gz 压缩解压处理，tar.gz 归档压缩解压，服务端日志备份、文件打包场景使用。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/82028253.html
+
+原标题：前端组件库按需加载性能优化
+简介：golang systemd 信号与优雅退出配合，systemd 停止服务发送 SIGTERM，go 程序捕获信号优雅关闭。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/71917030.html
+
+原标题：安全笔记：文件下载接口路径校验安全
+简介：golang go 项目安全检查漏洞扫描，扫描 go 项目依赖漏洞，代码安全审计，规避安全风险。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/63725139.html
+
+原标题：golang es 聚合统计查询实现
+简介：golang channel 关闭规则与坑点，关闭已经关闭 channel 会 panic，判断 channel 是否关闭正确写法。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/61895847.html
+
+原标题：数据库主从延迟业务兼容处理
+简介：golang cobra 命令行参数配置绑定，cobra 绑定配置文件环境变量命令行参数，多源配置合并。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/30403929.html
+
+原标题：简易网关请求路由过滤模拟
+简介：golang gin 参数绑定 query form json，掌握 Gin 多种参数绑定方式，适配不同请求格式参数读取。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/63948180.html
+
+原标题：开发复盘：统一错误码体系设计落地实践
+简介：golang time 定时器重置 Reset 正确用法，Timer Reset 调用前提，避免 Reset 带来逻辑错误。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/39684847.html
+
+原标题：坑点：依赖缓存未更新，旧代码持续运行
+简介：golang CPU 绑定亲和性设置 go 程序，设置进程 CPU 亲和绑定核心，减少 CPU 调度开销，提升计算性能。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/96050795.html
+
+原标题：golang 信号捕获程序退出处理
+简介：golang go 程序抢占调度理解，理解 go 抢占式调度原理，长循环阻塞调度，造成协程调度延迟。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/69717140.html
+
+原标题：设计思考：缓存分层架构设计与失效处理策略
+简介：Redis 分布式锁高并发安全实现，基于 Redis 实现分布式锁，处理锁过期、续期，保障集群并发安全。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/07150706.html
+
+原标题：golang 系统设计 git 分支流程 gitflow 实操
+简介：K8s 镜像拉取网络故障修复，排查 K8s 集群镜像拉取网络问题，配置镜像源，恢复镜像正常拉取。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/43784736.html
+
+原标题：入门实践：简单的请求封装与异常捕获
+简介：后端登录鉴权模块完整开发，实现完整登录模块，包含账号校验、令牌发放、接口鉴权整套能力。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/54847362.html
+
+原标题：实战：基于内存实现简单消息广播组件
+简介：golang sync.Mutex 互斥锁正确模式，互斥锁 defer Unlock，锁粒度控制，避免锁范围过大。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/74858581.html
+
+原标题：前后端交互跨域问题完整处理
+简介：golang go‑zero rpc 微服务开发，go‑zero 定义 proto，生成 rpc 服务代码，实现微服务调用。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/30536079.html
+
+原标题：零基础理解依赖管理与包管理器
+简介：DNS TTL 配置域名切换生效，调整 DNS 解析 TTL，缩短缓存时间，域名变更后可以快速全网生效。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/64807069.html
+
+原标题：golang viper 配置热更新实操
+简介：异步异常捕获避免进程崩溃，捕获异步代码内部抛出异常，防止未捕获异常直接导致整个进程退出。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/92928068.html
+
+原标题：部署实践：内网开发环境代理配置实践
+简介：golang 终端交互式输入选择，命令行交互式问答选择输入，实现交互式脚本工具。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/98581707.html
+
+原标题：golang 系统设计告警风暴抑制方案实现
+简介：nodejs 项目 pm2 部署运维指南，使用 PM2 管理 Node 服务，进程守护、日志、重启，线上部署运维实操。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/16258155.html
+
+原标题：OpenSource：大型仓库Git历史清理瘦身实操
+简介：golang redis bitmap 位图业务实战，bitmap 做签到统计、用户状态标记，节省大量内存空间。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/15914036.html
+
+原标题：golang proto 默认值坑点梳理
+简介：nestjs 框架模块化项目搭建，从零搭建 NestJS 项目，模块化拆分业务，搭建规范后端项目骨架。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/15025703.html
+
+原标题：golang context 上下文传参讲解
+简介：golang time.Ticker 泄漏常见场景，忘记 Stop Ticker，导致协程泄漏，定时器资源无法释放。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/18147037.html
+
+原标题：快速上手简易网关转发逻辑模拟
+简介：golang 处理连接被重置 reset 错误，识别 connection reset by peer，对端关闭连接异常处理逻辑。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/74681492.html
+
+原标题：架构复盘：跨机房多活架构基础概念与代价
+简介：golang go list 双向链表使用，container/list 双向链表，频繁增删节点业务场景使用。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/18240281.html
+
+原标题：WSL 文件权限访问异常修复
+简介：golang 数据库分表策略按时间分片，按时间维度分表，历史数据拆分，单表数据量控制保证查询性能。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/93139251.html
+
+原标题：golang docker 网络模式桥接 host
+简介：golang 消息队列 kafka 消费开发，Go 开发 Kafka 消费程序，消费消息执行业务，理解 Kafka 消费逻辑。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/31614039.html
+
+原标题：实战：容器内执行调试排错完整实操流程
+简介：golang 优雅停机服务关闭实现，监听系统信号，关闭服务等待请求处理完毕，实现 Go 服务优雅停机。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/08230392.html
+
+原标题：大文件导出内存溢出防护
+简介：golang init 函数合理使用边界，少用 init，优先显式调用初始化，便于控制初始化时机。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/62725849.html
+
+原标题：Git commit 钩子提交规范校验
+简介：golang jwt jwk 公钥验证令牌，使用 jwk 公钥校验 jwt，非对称方式签发校验令牌，提升安全性。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/84947291.html
+
+原标题：程序性能指标 CPU 内存监控
+简介：golang testing.TB Helper 标记辅助函数，t.Helper 标记辅助函数，报错打印真实调用位置。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/74139392.html
+
+原标题：golang kafka 批量发送消费优化
+简介：移动端适配 rem vw 方案对比，对比 rem 与 vw 移动端适配方案，分析优缺点，给出选型建议。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/29384706.html
+
+原标题：前端错误监控上报系统搭建
+简介：golang go‑fuzz 模糊测试开发，go fuzz 模糊测试，自动构造异常输入，发现代码隐藏 bug。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/75979392.html
+
+原标题：日志切割配置防止日志丢失
+简介：nestjs 框架模块化项目搭建，从零搭建 NestJS 项目，模块化拆分业务，搭建规范后端项目骨架。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/86029280.html
+
+原标题：性能笔记：磁盘IO过高业务优化手段
+简介：浏览器内存泄漏排查前端页面，梳理前端页面内存泄漏场景，讲解排查手段，修复页面内存持续上涨。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/19381706.html
+
+原标题：golang 系统设计消息体序列化选型对比
+简介：上传接口跨域配置特殊适配，针对文件上传接口，适配复杂请求，修复上传场景下跨域失效问题。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/15161404.html
+
+原标题：Practice：实现多数据源动态切换组件实践
+简介：API 大版本不兼容平滑迁移，API 版本迭代不兼容旧接口，设计平滑迁移方案，逐步完成版本切换。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/59684736.html
+
+原标题：业务接口幂等完整落地案例
+简介：端口占用释放资源重启服务，查找占用端口进程，结束占用进程，释放端口，让服务能够正常启动监听。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/59773647.html
+
+原标题：DevOps：WSL2生产环境使用风险提示
+简介：golang 命令行彩色输出终端，终端彩色文字输出，进度条交互，优化命令行工具用户体验。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/17584706.html
+
+四、架构设计｜Architecture
+原标题：golang k8s job 一次性任务执行
+简介：业务幂等键设计防重复逻辑，讲解幂等键设计思路，选择合适业务字段作为幂等标识，实现可靠防重复。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/40492806.html
+
+原标题：golang 系统设计开源项目安全漏洞处理流程
+简介：golang alertmanager 告警配置实践，alertmanager 配置告警路由，告警发送邮件钉钉，异常及时通知运维。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/96058605.html
+
+原标题：golang 系统设计多租户数据隔离方案
+简介：包管理器依赖冲突解决方案，分析依赖冲突产生根源，提供版本调整、锁定依赖等手段，解决项目依赖报错问题。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/85948483.html
+
+原标题：golang 系统设计 http3 quic 简单原理了解
+简介：CPU 亲和性配置负载均衡调度，配置进程 CPU 亲和，均衡利用多核 CPU，优化程序调度性能。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/18281716.html
+
+原标题：golang 系统设计内网外网服务隔离方案
+简介：golang strconv 字符串类型转换，字符串转数字布尔，处理转换失败 error，避免 panic。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/75969473.html
+
+原标题：CI 持续集成自动构建流程
+简介：golang go 锁竞争导致 CPU 飙升，识别锁竞争场景，减少锁粒度，优化并发逻辑降低 CPU 开销。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/39403928.html
+
+原标题：架构复盘：网关层、应用层、数据库层层限流架构
+简介：Git commit 钩子提交规范校验，配置 Git 提交钩子，提交代码自动校验提交信息格式，规范提交记录。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/56901133.html
+
+原标题：设计思考：API网关和BFF职责边界划分
+简介：golang strings 常用函数业务实战，字符串分割替换包含判断前缀后缀，掌握 strings 包高频函数。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/61235777.html
+
+原标题：nodejs 跨域中间件配置细节
+简介：golang goroutine 协程基础实操，Goroutine 基础实操案例，启动协程执行任务，理解轻量级协程特性。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/35687991.html
+
+原标题：golang redis 过期策略内存淘汰
+简介：golang 接口返回统一封装工具，封装 Go 接口统一返回工具，标准化成功失败返回结构体。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/93346661.html
+
+原标题：OAuth2 第三方登录服务搭建
+简介：golang go 防止路径穿越攻击，文件操作校验路径，拒绝../ 路径穿越，禁止访问系统任意文件。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/50103357.html
+
+原标题：安全复盘：环境变量密钥泄露风险与防护
+简介：golang http 中间件洋葱模型原理，理解 go http 中间件洋葱模型，请求响应流转顺序，编写自定义中间件。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/48012466.html
+
+原标题：优化实践：分页查询性能优化解决offset问题
+简介：golang gorm 预加载关联查询优化，GORM 预加载关联数据，避免 N+1 查询问题，提升数据库查询性能。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/72345779.html
+
+原标题：golang 系统设计分布式配置中心思路
+简介：HTTP 状态码请求头完整梳理，汇总常用 HTTP 状态码与请求头含义，帮助快速看懂网络请求，排查接口通信问题。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/37081121.html
+
+原标题：WebSocket 断线重连稳定优化
+简介：golang os 打开文件 O_APPEND O_CREATE 标志，OpenFile 标志位，控制文件创建追加截断行为。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/78013134.html
+
+原标题：golang 消息队列 kafka 消费开发
+简介：GraphQL 接口查询优化实操，体验 GraphQL 查询方式，按需获取字段，减少冗余数据传输，优化接口请求效率。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/21452352.html
+
+原标题：nodejs 内存溢出问题排查修复
+简介：golang nats 轻量消息队列 go 开发，nats 高性能轻量消息系统，发布订阅模式异步解耦业务。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/32453485.html
+
+原标题：OpenSource：大型仓库Git历史清理瘦身实操
+简介：golang go 程序权限最小化运行，容器内使用普通用户运行程序，拒绝 root 运行提升安全等级。
+ | 原文链接：http://www.blog.rptqmk.cn/hsqwp/86968789.html
+
+?

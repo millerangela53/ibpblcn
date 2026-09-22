@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：坑点：软链接权限问题容器读取文件失败
+简介：消息队列生产消费模型入门，讲解消息队列生产、存储、消费流程，理解异步解耦、削峰，掌握消息队列基础概念。
+ | 原文链接：http://www.blog.lalede.cn/idadq/41584939.shtml
+
+原标题：后端登录鉴权模块完整开发
+简介：数值类型溢出错乱问题修复，选择合适数值存储类型，处理数值溢出，避免数据存储错乱结果异常。
+ | 原文链接：http://www.blog.lalede.cn/idadq/17142402.shtml
+
+原标题：WSL 搭建 Windows Linux 开发环境
+简介：消息消费重试次数限制防爆炸，限制消息最大重试次数，防止失败消息无限重试造成消息爆炸堆积。
+ | 原文链接：http://www.blog.lalede.cn/idadq/74828135.shtml
+
+原标题：golang 系统设计 id 生成器选型对比
+简介：golang 故障演练服务模拟超时报错，程序模拟接口超时、报错，做混沌测试验证熔断降级有效性。
+ | 原文链接：http://www.blog.lalede.cn/idadq/13570258.shtml
+
+原标题：golang redis 缓存雪崩完整处理
+简介：golang oss 签名 URL 临时访问，生成 oss 临时签名 url，限时访问私有文件，保障文件访问安全可控。
+ | 原文链接：http://www.blog.lalede.cn/idadq/37247803.shtml
+
+原标题：golang redis 客户端业务使用
+简介：hosts 配置本地回环访问修复，修改 hosts 配置，修复 127.0.0.1 解析异常，本地服务访问失败问题。
+ | 原文链接：http://www.blog.lalede.cn/idadq/26026910.shtml
+
+原标题：golang 错误包装 errors.wrap 用法
+简介：golang testify mock 模拟接口，mock 接口生成 mock 对象，单元测试模拟外部依赖行为。
+ | 原文链接：http://www.blog.lalede.cn/idadq/63947058.shtml
+
+原标题：Docker 容器时区错误修复方案
+简介：golang redis geo 地理位置存储查询，Redis GEO 存储经纬度，查询附近点位，实现附近人业务功能。
+ | 原文链接：http://www.blog.lalede.cn/idadq/90424475.shtml
+
+原标题：golang prometheus counter gauge 使用
+简介：golang 内存持续上涨定位思路，区分内存泄漏、缓存占用、GC 参数不合理，分步定位内存持续走高。
+ | 原文链接：http://www.blog.lalede.cn/idadq/15456879.shtml
+
+原标题：Hands‑on：实现服务健康检查与自动报警demo
+简介：golang go mod replace 本地模块替换，replace 替换模块为本地目录，修改第三方库本地调试。
+ | 原文链接：http://www.blog.lalede.cn/idadq/32218967.shtml
+
+原标题：简易网关请求路由过滤模拟
+简介：golang time.Ticker 泄漏常见场景，忘记 Stop Ticker，导致协程泄漏，定时器资源无法释放。
+ | 原文链接：http://www.blog.lalede.cn/idadq/97170171.shtml
+
+原标题：API 接口调试与异常处理实战
+简介：golang 信号捕获程序退出处理，Go 捕获操作系统信号，做资源回收，控制程序退出流程。
+ | 原文链接：http://www.blog.lalede.cn/idadq/18263616.shtml
+
+原标题：Nginx 静态代理负载均衡全套配置
+简介：golang go 种子初始化 rand 随机，rand 初始化种子，不初始化会固定序列，理解随机数种子行为。
+ | 原文链接：http://www.blog.lalede.cn/idadq/26570692.shtml
+
+原标题：golang 集成测试启动测试数据库
+简介：golang os/exec 安全执行外部命令，规避命令注入漏洞，参数分离，禁止拼接命令字符串执行。
+ | 原文链接：http://www.blog.lalede.cn/idadq/39473735.shtml
+
+原标题：HelloMarkdown：GitHubMarkdown完整语法速查
+简介：Docker 容器网络不通排查，排查容器网络模式、端口映射、防火墙，解决容器之间、容器外部网络不通。
+ | 原文链接：http://www.blog.lalede.cn/idadq/07136383.shtml
+
+原标题：Performance：避免循环查询N+1问题完整优化
+简介：Nginx 丢失请求头配置修正，修复 Nginx 代理转发丢失请求头配置，保证上游服务拿到完整请求头信息。
+ | 原文链接：http://www.blog.lalede.cn/idadq/29381513.shtml
+
+原标题：golang 系统设计分布式事务业务选型决策思路
+简介：golang 接口限流中间件开发，Gin 开发限流中间件，接口层实现访问频率限制，防护接口流量。
+ | 原文链接：http://www.blog.lalede.cn/idadq/30405834.shtml
+
+原标题：golang 系统设计 git 分支流程 gitflow 实操
+简介：分布式任务调度集群原型开发，开发简易分布式调度原型，集群多节点运行，保证任务只执行一次。
+ | 原文链接：http://www.blog.lalede.cn/idadq/42625840.shtml
+
+原标题：安全实践：请求输入校验防御恶意参数
+简介：golang rate‑limiter 限流组件，封装通用 Go 限流组件，支持多算法，业务接口直接复用调用。
+ | 原文链接：http://www.blog.lalede.cn/idadq/41515917.shtml
+
+原标题：性能笔记：数据库表字段设计影响查询性能
+简介：Cookie 跨环境登录配置调整，调整 Cookie 域、Secure 属性，适配开发测试生产环境，修复登录失效。
+ | 原文链接：http://www.blog.lalede.cn/idadq/30414039.shtml
+
+原标题：golang 大文件读取内存优化
+简介：内存广播本地进程消息通知，实现进程内内存消息广播，进程内部模块之间事件通知解耦。
+ | 原文链接：http://www.blog.lalede.cn/idadq/41673696.shtml
+
+原标题：golang 系统设计网关 ssl 证书配置更新实操
+简介：GC 垃圾回收优化降低 CPU 占用，调整 GC 参数，优化对象创建销毁，降低垃圾回收带来 CPU 开销。
+ | 原文链接：http://www.blog.lalede.cn/idadq/36384707.shtml
+
+原标题：开发复盘：长轮询接口实现服务端消息推送
+简介：golang context.Background 与 TODO 区别，Background 主流程根上下文，TODO 不确定用哪个上下文时使用。
+ | 原文链接：http://www.blog.lalede.cn/idadq/41584745.shtml
+
+原标题：实践：前后端时间格式统一规范落地实践
+简介：序列化版本不一致解析失败，保证序列化对象版本对齐，修复版本不匹配导致对象反序列化失败。
+ | 原文链接：http://www.blog.lalede.cn/idadq/52684736.shtml
+
+原标题：golang k8s ingress 路由域名转发
+简介：golang 定时任务 cron 使用指南，Go 使用 Cron 库实现定时任务，配置 corn 表达式调度业务任务。
+ | 原文链接：http://www.blog.lalede.cn/idadq/29694736.shtml
+
+原标题：golang 系统设计 pr 评审合并完整流程
+简介：上传接口跨域配置特殊适配，针对文件上传接口，适配复杂请求，修复上传场景下跨域失效问题。
+ | 原文链接：http://www.blog.lalede.cn/idadq/75170694.shtml
+
+原标题：开发记录：实现完整用户登录鉴权业务模块
+简介：多实例部署 Session 共享方案，多服务实例部署场景，实现 Session 共享，保证用户登录状态跨实例生效。
+ | 原文链接：http://www.blog.lalede.cn/idadq/91807958.shtml
+
+原标题：golang 系统设计代码仓库权限管理方案
+简介：monorepo 项目多包管理最佳实践，monorepo 仓库管理多子包，统一版本管理，处理包之间互相依赖。
+ | 原文链接：http://www.blog.lalede.cn/idadq/97160402.shtml
+
+原标题：项目脚手架模板生成工具
+简介：代码格式化工具团队统一风格，接入格式化工具，统一全团队代码书写风格，减少格式类 git 冲突。
+ | 原文链接：http://www.blog.lalede.cn/idadq/37484737.shtml
+
+原标题：调优方案：MySQL缓冲池参数性能调优实践
+简介：本地简易配置中心动态管理，搭建轻量本地配置中心，业务动态读取配置，修改配置不重启服务。
+ | 原文链接：http://www.blog.lalede.cn/idadq/60893916.shtml
+
+原标题：golang 系统设计开源项目维护简单经验分享
+简介：布隆过滤器误判问题修正，调整布隆过滤器参数，降低误判概率，保证业务去重逻辑准确。
+ | 原文链接：http://www.blog.lalede.cn/idadq/26939251.shtml
+
+原标题：golang 系统设计缓存更新策略 cache aside 讲解
+简介：数据库死锁成因规避方案，讲解数据库死锁产生条件，给出业务层面规避手段，减少死锁事件发生。
+ | 原文链接：http://www.blog.lalede.cn/idadq/73524040.shtml
+
+原标题：性能笔记：连接池参数调优数据库RPC连接池
+简介：前端组件库按需加载性能优化，配置组件库按需引入，避免引入全部组件，减少打包产物体积。
+ | 原文链接：http://www.blog.lalede.cn/idadq/64046257.shtml
+
+原标题：vue pinia 状态管理实战教程
+简介：TCP 心跳检测清理僵死连接，开启 TCP 心跳机制，自动清理僵死无效连接，释放连接资源。
+ | 原文链接：http://www.blog.lalede.cn/idadq/16035492.shtml
+
+原标题：golang docker compose 环境变量
+简介：golang 分表跨表 join 查询处理方案，分表后跨分片关联查询解决方案，业务层聚合代替数据库 join。
+ | 原文链接：http://www.blog.lalede.cn/idadq/30256036.shtml
+
+原标题：架构笔记：多环境隔离架构开发测试生产隔离
+简介：WebSocket 断线重连稳定优化，增加 WebSocket 断线自动重连逻辑，处理网络抖动，维持长连接稳定。
+ | 原文链接：http://www.blog.lalede.cn/idadq/39335804.shtml
+
+原标题：零基础理解模块化与组件化基础思想
+简介：golang 图片处理 go 图片裁剪压缩，golang 图像处理库，图片缩放裁剪水印，服务端图片处理。
+ | 原文链接：http://www.blog.lalede.cn/idadq/58158149.shtml
+
+原标题：Dockerfile 编写容器打包实战
+简介：golang 简单爬虫请求防封禁，简易 Go 爬虫实现，增加请求间隔、UA 伪装，规避被目标站点封禁 IP。
+ | 原文链接：http://www.blog.lalede.cn/idadq/29368584.shtml
+
+原标题：前端组件库按需加载性能优化
+简介：golang redis 锁超时业务处理，Redis 分布式锁超时问题处理，锁续期逻辑，防止业务未完成锁提前释放。
+ | 原文链接：http://www.blog.lalede.cn/idadq/96102806.shtml
+
+原标题：golang 系统设计 mq 消息积压解决方案
+简介：golang context 取消传播机制，父 ctx 取消，所有派生子 context 全部被取消，理解上下文传播。
+ | 原文链接：http://www.blog.lalede.cn/idadq/41572836.shtml
+
+
+二、踩坑排错｜Troubleshooting
+原标题：golang 系统设计故障应急响应完整流程梳理
+简介：hosts 配置本地回环访问修复，修改 hosts 配置，修复 127.0.0.1 解析异常，本地服务访问失败问题。
+ | 原文链接：http://www.blog.lalede.cn/idadq/29350305.shtml
+
+原标题：golang 系统设计技术债务识别登记治理思路
+简介：golang proto 默认值坑点梳理，梳理 Protobuf 默认值坑，零值字段区分未赋值，避免业务逻辑错误。
+ | 原文链接：http://www.blog.lalede.cn/idadq/63725736.shtml
+
+原标题：golang 系统设计契约测试接口兼容性保障思路
+简介：全局本地依赖隔离冲突规避，区分全局依赖与项目本地依赖，隔离环境，防止全局包干扰项目运行。
+ | 原文链接：http://www.blog.lalede.cn/idadq/30478483.shtml
+
+原标题：AI实践：大模型生成测试用例实践与校验
+简介：golang go‑zero 监控指标埋点，go‑zero 内置 metrics 监控，上报业务指标对接监控平台。
+ | 原文链接：http://www.blog.lalede.cn/idadq/40491706.shtml
+
+原标题：方案对比：轮询长轮询WebSocket推送架构选型
+简介：golang go 输入数据校验防御，所有外部入参严格校验长度格式，防止恶意输入造成业务异常。
+ | 原文链接：http://www.blog.lalede.cn/idadq/46069584.shtml
+
+原标题：golang 系统设计压测指标 qps rt 错误率讲解
+简介：golang 日志按日期切割实现方案，实现日志文件按天切割，自动归档旧日志，防止单个日志文件过大。
+ | 原文链接：http://www.blog.lalede.cn/idadq/52835846.shtml
+
+原标题：golang 系统设计分布式锁可重入实现思路
+简介：golang go 项目依赖冲突解决完整思路，定位冲突包，replace、exclude、升级降级解决版本冲突。
+ | 原文链接：http://www.blog.lalede.cn/idadq/41808047.shtml
+
+原标题：前后端交互跨域问题完整处理
+简介：Redis 热点 key 拆分降低集群压力，拆分访问量极高的热点 Key，分散请求压力，避免 Redis 节点压力过高。
+ | 原文链接：http://www.blog.lalede.cn/idadq/93029269.shtml
+
+原标题：跨平台 uniapp 多端开发实操
+简介：TCP 心跳检测清理僵死连接，开启 TCP 心跳机制，自动清理僵死无效连接，释放连接资源。
+ | 原文链接：http://www.blog.lalede.cn/idadq/63735968.shtml
+
+原标题：golang 系统设计数据库慢请求排查流程
+简介：WebSocket 双向通信 demo 开发，搭建简易 WebSocket 服务，实现客户端服务端双向消息推送，理解实时通信原理。
+ | 原文链接：http://www.blog.lalede.cn/idadq/29381707.shtml
+
+原标题：设计思考：消息队列重复消费架构层防御手段
+简介：golang http client 全局变量复用，http Client 不要每次请求新建，复用 Transport 提升性能。
+ | 原文链接：http://www.blog.lalede.cn/idadq/52694736.shtml
+
+原标题：golang 开发环境快速搭建指南
+简介：golang nilnil interface 陷阱复现，interface 包含类型不为 nil 值为 nil，判 ==nil 返回 false 经典坑。
+ | 原文链接：http://www.blog.lalede.cn/idadq/07237080.shtml
+
+原标题：golang 系统设计 csrf 接口防护实现
+简介：vite 插件开发自定义构建逻辑，开发自定义 vite 插件，介入构建生命周期，实现项目个性化构建逻辑。
+ | 原文链接：http://www.blog.lalede.cn/idadq/96149215.shtml
+
+原标题：记一次分库分表路由计算错误数据写入错误分片
+简介：golang go sum 校验失败处理方案，go sum 校验不匹配，排查网络代理，清理缓存解决校验报错。
+ | 原文链接：http://www.blog.lalede.cn/idadq/59705039.shtml
+
+原标题：express 中间件开发业务实践
+简介：后端大文件分片上传接口开发，开发后端分片上传接口，接收分片，合并分片完成大文件存储。
+ | 原文链接：http://www.blog.lalede.cn/idadq/85969270.shtml
+
+原标题：部署复盘：容器OOM问题完整排查流程
+简介：golang grafana 面板 go 业务指标可视化，prometheus 指标对接 grafana，配置监控面板可视化业务状态。
+ | 原文链接：http://www.blog.lalede.cn/idadq/51575835.shtml
+
+原标题：调优方案：Docker容器内核参数性能调优
+简介：golang go 并发模式 errgroup 使用，errgroup 结合 context，协程组，任意协程出错整体取消任务。
+ | 原文链接：http://www.blog.lalede.cn/idadq/54735147.shtml
+
+原标题：极简 API 网关路由转发实现
+简介：集成测试业务流程编写示例，编写业务流程集成测试，覆盖完整业务链路，验证模块之间协同工作是否正常。
+ | 原文链接：http://www.blog.lalede.cn/idadq/18149289.shtml
+
+原标题：golang 系统设计错误码体系完整设计
+简介：nodejs 定时任务生产环境避坑，Node 定时任务线上踩坑汇总，集群重复执行、任务阻塞等问题解决方案。
+ | 原文链接：http://www.blog.lalede.cn/idadq/48391404.shtml
+
+原标题：golang 系统设计内部服务链路 trace 传递实现
+简介：Nginx 缓冲区调优大文件上传，调大 Nginx 请求缓冲区，支持客户端上传大体积文件，避免上传被截断。
+ | 原文链接：http://www.blog.lalede.cn/idadq/18358450.shtml
+
+原标题：Practice：实现数据库事务消息最终一致性demo
+简介：golang interface 接口使用避坑，interface 判 nil 坑点，理解接口底层结构，避免判空逻辑失效。
+ | 原文链接：http://www.blog.lalede.cn/idadq/07149294.shtml
+
+原标题：golang 系统设计状态字段枚举约束设计思路
+简介：golang channel 通道并发处理，讲解 Channel 用法，协程之间通过通道传递数据，做并发同步控制。
+ | 原文链接：http://www.blog.lalede.cn/idadq/07148465.shtml
+
+原标题：golang ci 流水线制品仓库上传下载
+简介：golang go 测试 t.Run 子测试分组，t.Run 实现子测试，分组执行用例，输出分组测试结果。
+ | 原文链接：http://www.blog.lalede.cn/idadq/18282525.shtml
+
+原标题：开发复盘：消息队列消息顺序性业务落地实践
+简介：golang 制品镜像版本号规范管理，镜像版本号结合 git commit，明确每个镜像对应代码版本便于追溯。
+ | 原文链接：http://www.blog.lalede.cn/idadq/07138069.shtml
+
+原标题：golang github actions 缓存依赖提速
+简介：golang mqtt 客户端 go 开发物联网，paho.mqtt.golang 实现 mqtt 客户端，物联网设备消息收发。
+ | 原文链接：http://www.blog.lalede.cn/idadq/74857069.shtml
+
+原标题：golang 系统设计 traceId 全链路透传完整方案
+简介：全平台系统环境变量配置，汇总多操作系统环境变量配置方法，统一项目读取逻辑，适配不同运行平台。
+ | 原文链接：http://www.blog.lalede.cn/idadq/20422928.shtml
+
+原标题：Hands‑on：简易压缩中间件gzip实现实践
+简介：golang go 测试文件命名规范，_test.go 测试文件，TestXxx 单元测试函数命名规范。
+ | 原文链接：http://www.blog.lalede.cn/idadq/52623913.shtml
+
+原标题：日志驱动异常日志不输出修复
+简介：golang 负载均衡轮询加权轮询实现，手写负载均衡算法，轮询、加权轮询分发请求到后端节点。
+ | 原文链接：http://www.blog.lalede.cn/idadq/48694707.shtml
+
+原标题：golang 系统设计密码存储哈希加盐实现
+简介：golang go 变量逃逸场景汇总，切片、指针、返回局部变量引发逃逸，变量分配到堆影响 GC。
+ | 原文链接：http://www.blog.lalede.cn/idadq/82042817.shtml
+
+原标题：全量回归测试提升代码质量
+简介：Redis 内存淘汰策略数据防丢失，合理配置 Redis 内存淘汰策略，防止内存满后误删除业务重要数据。
+ | 原文链接：http://www.blog.lalede.cn/idadq/31261426.shtml
+
+原标题：零基础理解JSON、XML数据格式处理
+简介：程序预加载加快服务启动速度，把高频使用资源提前预加载，减少请求阶段初始化，加快服务启动。
+ | 原文链接：http://www.blog.lalede.cn/idadq/42684736.shtml
+
+原标题：golang 系统设计网关性能压测优化简单思路
+简介：golang time 定时器重置 Reset 正确用法，Timer Reset 调用前提，避免 Reset 带来逻辑错误。
+ | 原文链接：http://www.blog.lalede.cn/idadq/96935139.shtml
+
+原标题：golang 系统设计防爬虫简单策略
+简介：单元测试用例编写入门实操，讲解测试用例设计思路，演示基础单元测试代码，提升代码健壮性，提前发现逻辑 bug。
+ | 原文链接：http://www.blog.lalede.cn/idadq/80806958.shtml
+
+原标题：排错：对象存储跨域配置不生效前端上传失败
+简介：超大数据集分页性能优化方案，对比不同分页方案，针对海量数据集做分页性能优化，解决越翻越慢。
+ | 原文链接：http://www.blog.lalede.cn/idadq/86068469.shtml
+
+原标题：从零学习基础的接口请求与参数处理
+简介：golang systemd 信号与优雅退出配合，systemd 停止服务发送 SIGTERM，go 程序捕获信号优雅关闭。
+ | 原文链接：http://www.blog.lalede.cn/idadq/86377362.shtml
+
+原标题：实战项目：前端资源打包体积优化完整实操
+简介：golang gorm 事务手动回滚提交，手动控制事务流程，业务异常主动回滚，保障数据操作原子性。
+ | 原文链接：http://www.blog.lalede.cn/idadq/63746358.shtml
+
+原标题：golang gin 中间件执行顺序讲解
+简介：golang goroutine 泄露常见场景汇总，channel 阻塞、context 忘记取消，导致协程无法退出发生泄露。
+ | 原文链接：http://www.blog.lalede.cn/idadq/96189281.shtml
+
+原标题：内网 DNS 不稳定随机报错排查
+简介：golang os 进程 pid 获取父进程 pid，os.Getpid 获取进程 id，获取父进程 pid，进程间识别。
+ | 原文链接：http://www.blog.lalede.cn/idadq/30412929.shtml
+
+原标题：避坑：文件锁处理不当多进程竞争死锁
+简介：限流组件计数器令牌桶模式实现，实现计数器、令牌桶两种限流算法，封装可复用限流组件。
+ | 原文链接：http://www.blog.lalede.cn/idadq/85817020.shtml
+
+原标题：零基础理解读写分离基础思想
+简介：golang go 程序守护进程实现思路，go 程序不做 daemon 化，依靠 systemd pm2 k8s 实现进程守护。
+ | 原文链接：http://www.blog.lalede.cn/idadq/18364736.shtml
+
+三、实战开发｜Practice
+原标题：golang 雪花 id 重复问题排查
+简介：golang go 程序 CPU 占用高定位步骤，pprof 定位热点函数，分析 CPU 高占用，优化耗时代码逻辑。
+ | 原文链接：http://www.blog.lalede.cn/idadq/21623039.shtml
+
+原标题：Git 代码冲突正确处理方式
+简介：golang go 整洁架构代码组织实践，整洁架构依赖向内，解耦业务逻辑与外部基础设施。
+ | 原文链接：http://www.blog.lalede.cn/idadq/29390281.shtml
+
+原标题：Performance：数据库分表解决单表过大性能衰减
+简介：TCP 心跳检测清理僵死连接，开启 TCP 心跳机制，自动清理僵死无效连接，释放连接资源。
+ | 原文链接：http://www.blog.lalede.cn/idadq/19361513.shtml
+
+原标题：golang 系统设计 api 网关核心能力完整梳理
+简介：重复提交幂等防护再次讲解，梳理前端重复点击、网络重试场景，落地接口幂等，杜绝重复业务。
+ | 原文链接：http://www.blog.lalede.cn/idadq/82526257.shtml
+
+原标题：跨平台 uniapp 多端开发实操
+简介：golang 容器健康检查接口开发，Go 开发 HTTP 健康接口，供容器编排工具探测实例存活状态。
+ | 原文链接：http://www.blog.lalede.cn/idadq/96067957.shtml
+
+原标题：golang 系统设计故障定位排查通用步骤方法论
+简介：golang ip 限流黑名单实现方案，基于 IP 做限流与黑名单，拦截恶意 IP 访问，保护接口服务。
+ | 原文链接：http://www.blog.lalede.cn/idadq/27180681.shtml
+
+原标题：Performance：JSON序列化性能优化实践
+简介：golang jaeger 链路追踪部署对接，jaeger 接收 opentelemetry 链路数据，可视化完整调用链路。
+ | 原文链接：http://www.blog.lalede.cn/idadq/74928181.shtml
+
+原标题：部署实践：数据库迁移脚本版本管理实践
+简介：golang go proxy 私有代理配置，配置 go proxy 私有代理，加速依赖下载，内网环境构建项目。
+ | 原文链接：http://www.blog.lalede.cn/idadq/71838039.shtml
+
+原标题：数值类型溢出错乱问题修复
+简介：golang ip 限流黑名单实现方案，基于 IP 做限流与黑名单，拦截恶意 IP 访问，保护接口服务。
+ | 原文链接：http://www.blog.lalede.cn/idadq/85848028.shtml
+
+原标题：nodejs 进程间通信 IPC 实操
+简介：CDN 缓存刷新获取最新静态资源，调用 CDN 刷新接口，清除节点旧缓存，用户访问到更新后的静态文件。
+ | 原文链接：http://www.blog.lalede.cn/idadq/74157369.shtml
+
+原标题：golang redis 五种数据结构实战
+简介：golang go 调度器 GMP 模型通俗讲解，拆解 GMP 模型，理解 goroutine M P 调度原理，看懂调度状态。
+ | 原文链接：http://www.blog.lalede.cn/idadq/29289691.shtml
+
+原标题：复盘总结：微服务改造踩坑经验总结记录
+简介：golang loki 日志收集 go 服务集成，日志输出适配 loki，标签携带 traceId，日志集中检索排查问题。
+ | 原文链接：http://www.blog.lalede.cn/idadq/76058574.shtml
+
+原标题：golang 系统设计告警风暴抑制合并降噪方案
+简介：游标分页大数据查询性能提升，使用游标分页替代偏移分页，解决大数据 offset 分页性能越来越差问题。
+ | 原文链接：http://www.blog.lalede.cn/idadq/20503928.shtml
+
+原标题：golang 系统设计开源项目依赖版本升级维护
+简介：golang 字符编码转换 go 处理，iconv‑go 做编码转换 gbk utf8 互转，处理老旧系统 gbk 编码数据。
+ | 原文链接：http://www.blog.lalede.cn/idadq/50367036.shtml
+
+原标题：golang 系统设计 e2e 端到端测试简单落地思路
+简介：golang make new 关键字使用区别，分清 new 与 make 适用类型，正确初始化切片 map 通道，杜绝 nil 引发 panic。
+ | 原文链接：http://www.blog.lalede.cn/idadq/53470360.shtml
+
+原标题：Hands‑on：手写简易ORM框架理解底层原理
+简介：Shell 运维脚本服务器效率提升，编写常用运维 Shell 脚本，自动化服务器运维操作，减少手工重复工作。
+ | 原文链接：http://www.blog.lalede.cn/idadq/20382706.shtml
+
+原标题：开源实践：开源Issue沟通技巧如何有效提Bug
+简介：service‑worker 离线缓存实践，使用 ServiceWorker 实现静态资源离线缓存，弱网环境页面依然可访问。
+ | 原文链接：http://www.blog.lalede.cn/idadq/29494139.shtml
+
+原标题：极简 API 网关路由转发实现
+简介：golang 限流器熔断降级组合使用，限流熔断降级组合架构，流量防护完整方案，保障服务稳定性。
+ | 原文链接：http://www.blog.lalede.cn/idadq/20362625.shtml
+
+原标题：golang 项目目录分层规范设计
+简介：golang 优雅处理 http 重定向逻辑，自定义控制 http 重定向跳转次数，防止无限重定向死循环。
+ | 原文链接：http://www.blog.lalede.cn/idadq/60783806.shtml
+
+原标题：踩坑：幂等键生成逻辑错误造成重复业务
+简介：MySQL 慢查询索引优化实战，抓取慢查询 SQL，分析执行计划，新增或者调整索引，提升 SQL 执行速度。
+ | 原文链接：http://www.blog.lalede.cn/idadq/52728136.shtml
+
+原标题：golang 系统设计监控大盘故障快速定位思路
+简介：golang rabbitmq 死信队列延迟消息，rabbitmq 实现死信、延迟消息，处理延时业务场景。
+ | 原文链接：http://www.blog.lalede.cn/idadq/29380180.shtml
+
+原标题：快速入门YAML配置文件语法与示例
+简介：WSL 搭建 Windows Linux 开发环境，配置 WSL 环境，在 Windows 系统使用 Linux 工具链，适配 Linux 开发项目。
+ | 原文链接：http://www.blog.lalede.cn/idadq/96191392.shtml
+
+原标题：架构复盘：容器资源隔离架构CPU内存限制设计
+简介：golang go 基准测试 benchmark 编写，Benchmark 性能基准测试，测量函数执行耗时内存分配情况。
+ | 原文链接：http://www.blog.lalede.cn/idadq/38919132.shtml
+
+原标题：零基础理解JSON、XML数据格式处理
+简介：预编译 SQL 防注入实现，使用预编译 SQL 方式，杜绝 SQL 注入风险，提升数据库访问层安全能力。
+ | 原文链接：http://www.blog.lalede.cn/idadq/24754778.shtml
+
+原标题：Spring 事务传播机制配置生效
+简介：HTTPS 证书过期更新操作，检测 HTTPS 证书到期，更新证书文件，恢复 HTTPS 服务正常访问。
+ | 原文链接：http://www.blog.lalede.cn/idadq/93279002.shtml
+
+原标题：nodejs 接口限流防刷代码实现
+简介：超大数据集分页性能优化方案，对比不同分页方案，针对海量数据集做分页性能优化，解决越翻越慢。
+ | 原文链接：http://www.blog.lalede.cn/idadq/02357779.shtml
+
+原标题：HelloMarkdown：GitHubMarkdown完整语法速查
+简介：开发生产环境资源路径统一，对齐开发环境与生产环境资源路径，防止本地正常上线后资源找不到。
+ | 原文链接：http://www.blog.lalede.cn/idadq/54734638.shtml
+
+原标题：golang 系统设计大文件上传架构
+简介：react hooks 常见陷阱避坑指南，梳理 React Hooks 高频踩坑点，依赖数组、闭包陷阱，写出稳定组件。
+ | 原文链接：http://www.blog.lalede.cn/idadq/29891203.shtml
+
+原标题：golang 项目 docker compose 本地调试
+简介：golang go select 多路等待 channel，select 等待多个 channel，default 非阻塞，超时等待 channel。
+ | 原文链接：http://www.blog.lalede.cn/idadq/71887002.shtml
+
+原标题：GitHub Markdown 文档语法汇总
+简介：golang net/url 路径拼接处理，url.ParseRequestURI 处理请求 url，正确拼接 url 路径避免拼接错误。
+ | 原文链接：http://www.blog.lalede.cn/idadq/92425769.shtml
+
+原标题：golang 系统设计结构化日志字段规范约定
+简介：golang rate‑limiter 限流组件，封装通用 Go 限流组件，支持多算法，业务接口直接复用调用。
+ | 原文链接：http://www.blog.lalede.cn/idadq/91645588.shtml
+
+原标题：ORM 框架数据库增删改查实操
+简介：golang nats jetstream 持久消息队列，nats jetstream 持久化消息，保证消息不丢失，实现可靠消费。
+ | 原文链接：http://www.blog.lalede.cn/idadq/59912266.shtml
+
+原标题：记一次本地运行正常，线上环境报错诡异问题
+简介：golang kitex 字节微服务框架入门，kitex 开发 rpc 微服务，代码生成，服务注册发现完整流程。
+ | 原文链接：http://www.blog.lalede.cn/idadq/36788688.shtml
+
+原标题：记一次GC频繁，服务CPU持续高负载排查
+简介：golang go mod graph 查看依赖关系，go mod graph 打印依赖树，定位间接依赖来源，解决版本冲突。
+ | 原文链接：http://www.blog.lalede.cn/idadq/82346775.shtml
+
+原标题：部署实践：服务器时间同步chrony配置
+简介：golang clickhouse go 客户端数据写入，clickhouse‑go 客户端写入查询，海量时序数据分析业务。
+ | 原文链接：http://www.blog.lalede.cn/idadq/92325546.shtml
+
+原标题：GitHub 项目提交推送完整流程讲解
+简介：前端骨架屏提升页面体验，实现页面骨架屏，数据未加载完成展示占位，优化页面白屏感知体验。
+ | 原文链接：http://www.blog.lalede.cn/idadq/70007820.shtml
+
+原标题：项目实践：MySQL读写分离本地模拟实践
+简介：golang slice 切片底层原理与坑点，切片扩容、截取、底层数组共享，规避切片修改互相影响数据。
+ | 原文链接：http://www.blog.lalede.cn/idadq/36002133.shtml
+
+原标题：golang 配置文件多环境加载
+简介：golang go 依赖漏洞检测 govulncheck，govulncheck 扫描依赖安全漏洞，发现项目供应链风险。
+ | 原文链接：http://www.blog.lalede.cn/idadq/21653574.shtml
+
+原标题：安全实践：API密钥管理轮换最佳实践
+简介：WebSocket 聊天室实时通讯开发，基于 WebSocket 搭建简易聊天室，实现多人消息广播实时聊天效果。
+ | 原文链接：http://www.blog.lalede.cn/idadq/78322356.shtml
+
+原标题：nestjs 全局返回格式统一处理
+简介：环境变量不生效问题修复，排查环境变量加载顺序、作用域问题，修复环境变量读取不到的异常。
+ | 原文链接：http://www.blog.lalede.cn/idadq/15766668.shtml
+
+四、架构设计｜Architecture
+原标题：项目实践：多租户数据隔离三种方案实操对比
+简介：golang 命令行交互 cobra 开发 cli，cobra 库开发功能完善命令行工具，子命令参数标志解析。
+ | 原文链接：http://www.blog.lalede.cn/idadq/37898114.shtml
+
+原标题：golang ci 流水线自动部署 k8s 示例
+简介：接口签名验签完整安全方案，一套完整接口签名方案，包含签名生成、请求携带、服务端验签校验。
+ | 原文链接：http://www.blog.lalede.cn/idadq/12656647.shtml
+
+原标题：Troubleshooting：WSL文件权限问题大量踩坑
+简介：css 动画性能优化 GPU 加速，优化 CSS 动画，使用 GPU 加速属性，避免动画过程页面卡顿掉帧。
+ | 原文链接：http://www.blog.lalede.cn/idadq/45978708.shtml
+
+原标题：Practice：实现简单信号处理优雅停机实践
+简介：任务执行锁防止并发重复调度，增加任务执行锁，多实例环境，防止同一个定时任务并发多次运行。
+ | 原文链接：http://www.blog.lalede.cn/idadq/29491037.shtml
+
+原标题：DevOps：环境配置管理区分开发测试生产
+简介：golang go 接口定义原则小接口，go 小接口设计原则，接口尽量小，只定义必要方法，提升代码灵活性。
+ | 原文链接：http://www.blog.lalede.cn/idadq/13334463.shtml
+
+原标题：调优方案：Docker容器内核参数性能调优
+简介：程序预加载加快服务启动速度，把高频使用资源提前预加载，减少请求阶段初始化，加快服务启动。
+ | 原文链接：http://www.blog.lalede.cn/idadq/07293627.shtml
+
+原标题：golang 系统设计开源项目安全漏洞处理流程
+简介：golang channel 通道并发处理，讲解 Channel 用法，协程之间通过通道传递数据，做并发同步控制。
+ | 原文链接：http://www.blog.lalede.cn/idadq/41805847.shtml
+
+原标题：看懂报错日志快速定位问题
+简介：golang 设置 net.Conn 读写超时，每次读写设置超时，防止连接永久阻塞挂起不返回。
+ | 原文链接：http://www.blog.lalede.cn/idadq/29390796.shtml
+
+原标题：踩坑记录：文件描述符不足，上传功能随机失败
+简介：依赖安装失败全方位排错，从网络、镜像源、权限、版本多角度，定位依赖安装失败，给出对应修复手段。
+ | 原文链接：http://www.blog.lalede.cn/idadq/75946848.shtml
+
+原标题：golang mysql 长连接短连接对比
+简介：golang go 种子初始化 rand 随机，rand 初始化种子，不初始化会固定序列，理解随机数种子行为。
+ | 原文链接：http://www.blog.lalede.cn/idadq/29302815.shtml
+
+原标题：golang redis 布隆过滤器安装使用
+简介：golang net.Conn 包装自定义连接，包装 net.Conn，统计读写字节，日志打印，超时控制。
+ | 原文链接：http://www.blog.lalede.cn/idadq/71817060.shtml
+
+原标题：golang 系统设计降级策略开关配置方案
+简介：golang docker 镜像构建最佳实践，Go 项目 Docker 镜像构建最佳实践，减小镜像体积，安全构建。
+ | 原文链接：http://www.blog.lalede.cn/idadq/61591479.shtml
+
+原标题：MySQL 慢查询索引优化实战
+简介：golang 表单文件大小限制配置，限制表单上传文件最大体积，拦截超大文件上传请求，保护服务。
+ | 原文链接：http://www.blog.lalede.cn/idadq/85914583.shtml
+
+原标题：DevOps：Docker镜像优化，减小镜像体积实践
+简介：golang 大文件 HTTP 流式上传接收，服务端流式接收上传文件，不全部加载内存，防止大文件 OOM 崩溃。
+ | 原文链接：http://www.blog.lalede.cn/idadq/41927060.shtml
+
+原标题：效率笔记：Git高级命令日常开发高频使用汇总
+简介：golang os 文件目录操作大全，文件创建删除重命名，目录遍历，文件信息读取，完成各类文件系统操作。
+ | 原文链接：http://www.blog.lalede.cn/idadq/41536350.shtml
+
+原标题：ORM 框架数据库增删改查实操
+简介：后端大文件分片上传接口开发，开发后端分片上传接口，接收分片，合并分片完成大文件存储。
+ | 原文链接：http://www.blog.lalede.cn/idadq/29391936.shtml
+
+原标题：数值类型溢出错乱问题修复
+简介：golang mysql 慢查询日志程序采集解析，程序读取解析 mysql 慢查询日志，统计慢 SQL 做监控告警。
+ | 原文链接：http://www.blog.lalede.cn/idadq/96059285.shtml
+
+原标题：快速入门YAML配置文件语法与示例
+简介：新手参与开源社区贡献指南，介绍开源社区基础规则，讲解阅读 issue、提交 PR 流程，指导开发者参与开源贡献。
+ | 原文链接：http://www.blog.lalede.cn/idadq/65897822.shtml
+
+?

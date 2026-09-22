@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：Hands‑on：模板渲染引擎最小原型实现
+简介：golang 自定义 pprof 扩展业务指标，扩展 pprof，输出业务自定义指标，结合性能数据分析业务状态。
+ | 原文链接：http://book.kppsas.asia/blog/6061403.sHtMl
+
+原标题：代码模块化组件化拆分思路
+简介：golang 大内存分配 GC 抖动规避，避免瞬时大量对象创建，分批处理，防止 GC 抖动业务抖动。
+ | 原文链接：http://book.kppsas.asia/blog/2004625.sHtMl
+
+原标题：实战：Nginx负载均衡多种策略配置实践
+简介：静态网页 HTML CSS 快速入门实战，通过简单页面案例讲解标签、样式布局，从零编写页面，理解网页基础渲染原理。
+ | 原文链接：http://book.kppsas.asia/blog/1924131.sHtMl
+
+原标题：golang consul 服务发现简单示例
+简介：golang 信号捕获程序退出处理，Go 捕获操作系统信号，做资源回收，控制程序退出流程。
+ | 原文链接：http://book.kppsas.asia/blog/8068060.sHtMl
+
+原标题：复盘总结：分布式系统常见坑点汇总清单
+简介：gRPC 服务端客户端入门示例，搭建 gRPC 服务端与调用客户端，学习 protobuf 定义，掌握 RPC 基础开发流程。
+ | 原文链接：http://book.kppsas.asia/blog/2978171.sHtMl
+
+原标题：golang redis lua 脚本原子操作
+简介：golang 静态文件服务搭建教程，Go 搭建静态文件服务，托管静态资源，实现文件直接对外访问。
+ | 原文链接：http://book.kppsas.asia/blog/6494818.sHtMl
+
+原标题：golang kafka 重试机制配置实操
+简介：JSON XML 数据解析处理示例，演示两种格式数据解析与序列化，增加异常捕获，处理格式错乱导致解析失败。
+ | 原文链接：http://book.kppsas.asia/blog/2827915.sHtMl
+
+原标题：golang 系统设计网络超时故障排查思路
+简介：golang net/url 路径拼接处理，url.ParseRequestURI 处理请求 url，正确拼接 url 路径避免拼接错误。
+ | 原文链接：http://book.kppsas.asia/blog/6262482.sHtMl
+
+原标题：golang 系统设计 grpc proto 接口设计原则
+简介：golang socket 文件描述符继承重启，父进程传递 listener fd 给子进程，实现 go 程序零停机热重启。
+ | 原文链接：http://book.kppsas.asia/blog/9616959.sHtMl
+
+原标题：方案设计：异步解耦业务架构边界识别
+简介：新手快速上手 Git 版本控制实操指南，讲解 Git 基础概念与常用命令，结合实操案例，帮助零基础用户掌握版本控制核心能力。
+ | 原文链接：http://book.kppsas.asia/blog/6303737.sHtMl
+
+原标题：入门实践：简单数据脱敏处理示例
+简介：端口占用释放资源重启服务，查找占用端口进程，结束占用进程，释放端口，让服务能够正常启动监听。
+ | 原文链接：http://book.kppsas.asia/blog/1828031.sHtMl
+
+原标题：golang 系统设计分布式锁红锁优缺点梳理
+简介：golang grafana 面板 go 业务指标可视化，prometheus 指标对接 grafana，配置监控面板可视化业务状态。
+ | 原文链接：http://book.kppsas.asia/blog/1414523.sHtMl
+
+原标题：OpenSource：开源项目贡献者协作流程规范
+简介：静态网页 HTML CSS 快速入门实战，通过简单页面案例讲解标签、样式布局，从零编写页面，理解网页基础渲染原理。
+ | 原文链接：http://book.kppsas.asia/blog/8601894.sHtMl
+
+原标题：golang 系统设计定时任务分布式锁防重复执行
+简介：golang net/url 路径拼接处理，url.ParseRequestURI 处理请求 url，正确拼接 url 路径避免拼接错误。
+ | 原文链接：http://book.kppsas.asia/blog/3057259.sHtMl
+
+原标题：Troubleshooting：k8s镜像拉取失败镜像仓库网络问题
+简介：golang contract 契约测试微服务，微服务契约测试，保证接口变更不破坏调用方，提前发现兼容性问题。
+ | 原文链接：http://book.kppsas.asia/blog/9604734.sHtMl
+
+原标题：Hands‑on：简易配置中心本地原型实现
+简介：golang go mod why 查询依赖引入原因，go mod why 查询为什么引入某个包，理清依赖来源。
+ | 原文链接：http://book.kppsas.asia/blog/2040360.sHtMl
+
+原标题：golang validator 自定义校验规则
+简介：golang 项目 go mod 依赖管理，Go Mod 管理项目依赖，下载、升级、清理依赖，解决依赖版本管理。
+ | 原文链接：http://book.kppsas.asia/blog/0702816.sHtMl
+
+原标题：YAML 配置文件语法快速上手
+简介：GitHub 项目提交推送完整流程讲解，从仓库初始化到提交推送远程仓库，梳理全流程细节，避开新手高频错误。
+ | 原文链接：http://book.kppsas.asia/blog/5161474.sHtMl
+
+原标题：Practice：JWT工具封装，刷新令牌完整逻辑
+简介：大事务拆分回滚日志暴涨解决，拆分大型数据库事务，减少回滚日志生成量，避免磁盘被回滚日志占满。
+ | 原文链接：http://book.kppsas.asia/blog/1716959.sHtMl
+
+原标题：Practice：实现文件监控自动重启开发服务工具
+简介：配置与镜像分离防止信息泄露，业务配置不打包进镜像，外部挂载配置，避免密钥配置随镜像泄露。
+ | 原文链接：http://book.kppsas.asia/blog/7212514.sHtMl
+
+原标题：新手指南：本地防火墙端口访问失败排查
+简介：多操作系统开发兼容处理，解决不同系统路径、换行符、权限差异，保证项目跨平台正常运行。
+ | 原文链接：http://book.kppsas.asia/blog/9393582.sHtMl
+
+原标题：Practice：实现接口防重提交组件实践
+简介：开发生产环境资源路径统一，对齐开发环境与生产环境资源路径，防止本地正常上线后资源找不到。
+ | 原文链接：http://book.kppsas.asia/blog/0603582.sHtMl
+
+原标题：零基础理解模块化与组件化基础思想
+简介：golang md5 sha 加密工具实现，实现 MD5、SHA 哈希工具，做数据摘要，用于签名校验场景。
+ | 原文链接：http://book.kppsas.asia/blog/7480394.sHtMl
+
+原标题：编译打包产物依赖分析解读
+简介：golang channel 通道并发处理，讲解 Channel 用法，协程之间通过通道传递数据，做并发同步控制。
+ | 原文链接：http://book.kppsas.asia/blog/5256258.sHtMl
+
+原标题：golang 系统设计告警规则阈值设置方法论
+简介：golang gin 中间件执行顺序讲解，理解 Gin 中间件注册顺序，区分前置后置逻辑，规避中间件顺序 bug。
+ | 原文链接：http://book.kppsas.asia/blog/5270382.sHtMl
+
+原标题：golang 系统设计缓存更新策略 cache aside 讲解
+简介：前端大文件分片上传完整方案，前端分片切割大文件，配合后端分片接口，实现稳定大文件上传。
+ | 原文链接：http://book.kppsas.asia/blog/1823904.sHtMl
+
+原标题：Practice：实现数据库事务消息最终一致性demo
+简介：golang trace 可视化分析协程阻塞，使用 trace 网页 UI，定位协程阻塞、系统调用阻塞、锁等待。
+ | 原文链接：http://book.kppsas.asia/blog/4747152.sHtMl
+
+原标题：优化实践：Redis性能调优，避免大key热key
+简介：golang mongodb go 驱动实操教程，mongo‑go‑driver 操作 mongodb，文档增删改查聚合查询。
+ | 原文链接：http://book.kppsas.asia/blog/1829036.sHtMl
+
+原标题：前端防抖节流高频事件处理
+简介：后端分页查询逻辑代码实现，编写后端分页接口，处理页码、每页条数参数，优化大数据量查询返回结果。
+ | 原文链接：http://book.kppsas.asia/blog/9725148.sHtMl
+
+原标题：设计思考：分布式ID系统架构选型对比
+简介：golang 分页查询封装通用工具，封装 Go 通用分页工具，统一处理分页参数，简化业务分页接口开发。
+ | 原文链接：http://book.kppsas.asia/blog/1635792.sHtMl
+
+原标题：安全实践：输入输出双向过滤安全最佳实践
+简介：golang context.WithTimeout 超时上下文，WithTimeout 设置超时时间，超时自动 cancel 释放协程。
+ | 原文链接：http://book.kppsas.asia/blog/6372071.sHtMl
+
+原标题：安全笔记：CORS跨域配置错误安全风险
+简介：golang 终端交互式输入选择，命令行交互式问答选择输入，实现交互式脚本工具。
+ | 原文链接：http://book.kppsas.asia/blog/9581415.sHtMl
+
+原标题：golang 系统设计对象池复用减少内存分配
+简介：静态博客部署 GitHub Pages 教程，将静态博客项目部署至 GitHub Pages，完成线上访问，快速搭建个人技术博客站点。
+ | 原文链接：http://book.kppsas.asia/blog/1524149.sHtMl
+
+原标题：部署复盘：配置不要硬编码进镜像最佳实践
+简介：golang 滑动窗口限流算法 go 实现，滑动窗口限流，解决固定窗口临界流量突增漏洞，限流更精准。
+ | 原文链接：http://book.kppsas.asia/blog/2949293.sHtMl
+
+原标题：零基础理解前后端简单交互流程
+简介：容器软链接文件权限修复，修复容器内软链接文件权限，让程序能够正常读取软链接指向的文件。
+ | 原文链接：http://book.kppsas.asia/blog/2968061.sHtMl
+
+原标题：golang mongodb 事务多文档使用
+简介：全局本地依赖隔离冲突规避，区分全局依赖与项目本地依赖，隔离环境，防止全局包干扰项目运行。
+ | 原文链接：http://book.kppsas.asia/blog/8192916.sHtMl
+
+原标题：性能笔记：DNS缓存优化减少域名解析开销
+简介：前端虚拟列表大数据渲染优化，实现虚拟滚动列表，只渲染可视区域 DOM，上万条数据页面流畅渲染。
+ | 原文链接：http://book.kppsas.asia/blog/4268447.sHtMl
+
+原标题：图片上传预览格式大小处理
+简介：golang sync.Once 只执行一次，sync.Once 做单例初始化，保证代码只执行一次，并发安全。
+ | 原文链接：http://book.kppsas.asia/blog/2635249.sHtMl
+
+原标题：golang 互斥锁读写锁并发安全
+简介：golang 分布式追踪全链路日志打印，日志打印 traceId，各个服务日志可串联，排查跨服务调用问题。
+ | 原文链接：http://book.kppsas.asia/blog/2525271.sHtMl
+
+原标题：架构复盘：分表扩容架构平滑迁移思路
+简介：golang bufio.Scanner 缓冲区调大，Scanner 默认缓冲区大小不够，读取超长行需要扩大缓冲区。
+ | 原文链接：http://book.kppsas.asia/blog/1724726.sHtMl
+
+
+二、踩坑排错｜Troubleshooting
+原标题：golang es 分词器选型业务适配
+简介：golang http 服务优雅关闭完整示例，接收终止信号，停止接收新请求，等待现有请求处理完毕后退出服务。
+ | 原文链接：http://book.kppsas.asia/blog/7489282.sHtMl
+
+原标题：golang 系统信号信号量处理
+简介：ServiceWorker 缓存页面更新清理，处理 ServiceWorker 缓存，实现页面新版本更新，用户可以加载最新页面。
+ | 原文链接：http://book.kppsas.asia/blog/9364696.sHtMl
+
+原标题：golang 系统设计监控体系指标分类方法论梳理
+简介：简易日志收集集中管理方案，搭建轻量日志收集方案，把多服务日志汇总，集中检索查看日志信息。
+ | 原文链接：http://book.kppsas.asia/blog/2635237.sHtMl
+
+原标题：开发复盘：大事务拆分优化业务性能实践
+简介：游标分页大数据查询性能提升，使用游标分页替代偏移分页，解决大数据 offset 分页性能越来越差问题。
+ | 原文链接：http://book.kppsas.asia/blog/3716927.sHtMl
+
+原标题：golang redis 布隆过滤器安装使用
+简介：golang hmac 签名生成校验示例，hmac 生成消息签名，做接口请求签名，校验数据不被篡改。
+ | 原文链接：http://book.kppsas.asia/blog/9536949.sHtMl
+
+原标题：Practice：实现防爬虫简单拦截中间件实践
+简介：golang net.Conn 包装自定义连接，包装 net.Conn，统计读写字节，日志打印，超时控制。
+ | 原文链接：http://book.kppsas.asia/blog/3645872.sHtMl
+
+原标题：golang traceId spanId 传递方案
+简介：golang panic 崩溃日志完整收集，捕获所有 panic，打印堆栈，记录日志，方便定位崩溃根源。
+ | 原文链接：http://book.kppsas.asia/blog/3535245.sHtMl
+
+原标题：Architecture：API设计RESTful最佳实践与反模式
+简介：golang 数据库连接池泄露检测逻辑，监控连接池状态，检测连接长时间未归还，告警连接泄漏问题。
+ | 原文链接：http://book.kppsas.asia/blog/6595804.sHtMl
+
+原标题：部署复盘：静态站点部署CDN完整流程
+简介：开源项目构建失败排查步骤，梳理构建报错排查流程，从依赖、网络、权限、脚本多角度定位项目构建失败原因。
+ | 原文链接：http://book.kppsas.asia/blog/6079131.sHtMl
+
+原标题：架构复盘：服务灰度发布架构设计与流量切分
+简介：GitHub 项目提交推送完整流程讲解，从仓库初始化到提交推送远程仓库，梳理全流程细节，避开新手高频错误。
+ | 原文链接：http://book.kppsas.asia/blog/7482582.sHtMl
+
+原标题：golang aes 对称加密解密示例
+简介：golang 命令行参数解析开发，解析命令行入参，开发自定义 CLI 程序，读取启动参数配置服务。
+ | 原文链接：http://book.kppsas.asia/blog/7405704.sHtMl
+
+原标题：实战：接口压力测试实操，定位系统瓶颈
+简介：提交第一个开源 PR 完整流程，Fork 项目、修改代码、提交 Pull Request，讲解 PR 规范，提升合并通过率。
+ | 原文链接：http://book.kppsas.asia/blog/1828172.sHtMl
+
+原标题：排错：前端sourcemap错误线上无法定位报错
+简介：CI 流水线超时时间延长配置，调大 CI 任务超时阈值，解决构建任务耗时较长被流水线强制终止。
+ | 原文链接：http://book.kppsas.asia/blog/6480393.sHtMl
+
+原标题：GC 垃圾回收优化降低 CPU 占用
+简介：WSL 文件权限访问异常修复，处理 WSL 环境文件权限错乱，调整权限配置，实现文件正常读写访问。
+ | 原文链接：http://book.kppsas.asia/blog/1594786.sHtMl
+
+原标题：调优方案：数据库索引不要过度建立，权衡写性能
+简介：项目脚手架模板生成工具，搭建项目模板脚手架，一键生成标准化项目骨架，减少重复初始化工作。
+ | 原文链接：http://book.kppsas.asia/blog/8323815.sHtMl
+
+原标题：Issue：定时任务并发执行未加锁重复执行业务
+简介：开源项目构建失败排查步骤，梳理构建报错排查流程，从依赖、网络、权限、脚本多角度定位项目构建失败原因。
+ | 原文链接：http://book.kppsas.asia/blog/4151461.sHtMl
+
+原标题：开发测试生产多环境配置区分
+简介：golang channel 通道并发处理，讲解 Channel 用法，协程之间通过通道传递数据，做并发同步控制。
+ | 原文链接：http://book.kppsas.asia/blog/9616829.sHtMl
+
+原标题：设计思考：分布式系统时钟同步带来的架构问题
+简介：golang grpc 负载均衡客户端实现，grpc 客户端负载均衡，轮询随机权重，分发请求到多个服务实例。
+ | 原文链接：http://book.kppsas.asia/blog/9502469.sHtMl
+
+原标题：git cherry‑pick 规范操作防 bug
+简介：golang http 服务并发连接数限制，自定义 listener 统计连接数量，限制最大并发连接数保护服务。
+ | 原文链接：http://book.kppsas.asia/blog/4379571.sHtMl
+
+原标题：golang 定时任务 cron 使用指南
+简介：react 状态管理方案选型对比，对比 Redux、Zustand 等 React 状态管理库，分析适用业务场景辅助选型。
+ | 原文链接：http://book.kppsas.asia/blog/0435025.sHtMl
+
+原标题：golang 优雅处理系统信号 SIGINT
+简介：golang gorm select 指定查询字段，指定查询字段，避免查询全部字段，减少数据传输，提升查询性能。
+ | 原文链接：http://book.kppsas.asia/blog/9261404.sHtMl
+
+原标题：实践：接口参数自动校验业务落地实践
+简介：golang redis bloom 布隆过滤器 go‑redis，go‑redis 布隆过滤器，海量数据判断是否存在，减少数据库查询。
+ | 原文链接：http://book.kppsas.asia/blog/6502625.sHtMl
+
+原标题：开发记录：JWT过期刷新滑动过期实现实践
+简介：golang proto 可选字段处理方案，protobuf 可选字段正确判断，区分未赋值与零值，业务逻辑不出现偏差。
+ | 原文链接：http://book.kppsas.asia/blog/6851360.sHtMl
+
+原标题：避坑：批量操作未分批次，一次性内存打爆
+简介：线程池拒绝策略任务丢失防护，合理设置线程池拒绝策略，处理任务队列满场景，避免业务任务直接丢失。
+ | 原文链接：http://book.kppsas.asia/blog/1816615.sHtMl
+
+原标题：service‑worker 离线缓存实践
+简介：站内邮件消息通知功能开发，实现站内消息、邮件通知推送，业务事件触发通知，提醒用户业务状态变更。
+ | 原文链接：http://book.kppsas.asia/blog/4150405.sHtMl
+
+原标题：golang toml 配置文件解析教程
+简介：Docker 容器时区错误修复方案，修复 Docker 容器内部时区偏差，解决容器内时间不对引发业务逻辑异常。
+ | 原文链接：http://book.kppsas.asia/blog/8501204.sHtMl
+
+原标题：部署实践：容器优雅停机配置处理信号
+简介：golang delve 远程调试 go 线上程序，delve 远程调试，线上环境附加进程调试排查线上 bug。
+ | 原文链接：http://book.kppsas.asia/blog/6380471.sHtMl
+
+原标题：开发复盘：百万数据批量导入数据库优化方案
+简介：看懂报错日志快速定位问题，讲解日志阅读方法，解析堆栈信息含义，学会从报错信息中定位代码出错位置。
+ | 原文链接：http://book.kppsas.asia/blog/4168259.sHtMl
+
+原标题：golang redis zset 排行榜业务实现
+简介：消息队列消费堆积扩容处理，消息大量堆积时，扩容消费实例，优化消费逻辑，加快消息处理速度。
+ | 原文链接：http://book.kppsas.asia/blog/7470582.sHtMl
+
+原标题：大事务拆分回滚日志暴涨解决
+简介：超大数据集分页性能优化方案，对比不同分页方案，针对海量数据集做分页性能优化，解决越翻越慢。
+ | 原文链接：http://book.kppsas.asia/blog/4146036.sHtMl
+
+原标题：架构笔记：冷热数据分离架构设计与迁移
+简介：golang gzip 压缩 http 响应，服务端开启 gzip 压缩，减小接口响应体积，降低网络传输耗时。
+ | 原文链接：http://book.kppsas.asia/blog/1716838.sHtMl
+
+原标题：设计思考：缓存分层架构设计与失效处理策略
+简介：项目构建脚本编译打包解析，解读项目构建脚本，理清编译、压缩、资源复制流程，理解打包后产物如何生成。
+ | 原文链接：http://book.kppsas.asia/blog/3658959.sHtMl
+
+原标题：golang 优雅处理数据库事务
+简介：WSL 文件权限访问异常修复，处理 WSL 环境文件权限错乱，调整权限配置，实现文件正常读写访问。
+ | 原文链接：http://book.kppsas.asia/blog/2936826.sHtMl
+
+原标题：golang 系统设计内部服务契约测试简单思路
+简介：golang kitex 中间件与元数据传递，kitex 自定义中间件，透传 traceId 鉴权元数据，统一处理请求。
+ | 原文链接：http://book.kppsas.asia/blog/6604818.sHtMl
+
+原标题：golang 系统设计本地消息表可靠消息最终一致性
+简介：golang 接口限流中间件开发，Gin 开发限流中间件，接口层实现访问频率限制，防护接口流量。
+ | 原文链接：http://book.kppsas.asia/blog/4373581.sHtMl
+
+原标题：预编译 SQL 防注入实现
+简介：WSL 搭建 Windows Linux 开发环境，配置 WSL 环境，在 Windows 系统使用 Linux 工具链，适配 Linux 开发项目。
+ | 原文链接：http://book.kppsas.asia/blog/8582259.sHtMl
+
+原标题：Shell 脚本自动化命令编写
+简介：golang go 网络编程 net 包基础，net 包 tcp udp socket 编程，监听接收连接，读写数据。
+ | 原文链接：http://book.kppsas.asia/blog/1922614.sHtMl
+
+原标题：gRPC 服务端客户端入门示例
+简介：golang elasticsearch 客户端 golang 实操，es 客户端文档增删改查，条件搜索聚合统计对接搜索引擎。
+ | 原文链接：http://book.kppsas.asia/blog/6373515.sHtMl
+
+原标题：golang net/http 超时全套配置
+简介：golang net.Listener 包装自定义监听器，包装 Listener 做连接计数、连接拦截，扩展网络能力。
+ | 原文链接：http://book.kppsas.asia/blog/9302815.sHtMl
+
+原标题：OpenSource：开源项目版本发布CHANGELOG编写
+简介：CI/CD 流水线自动构建部署落地，搭建完整 CI/CD 流水线，代码提交自动构建、测试、部署到目标环境。
+ | 原文链接：http://book.kppsas.asia/blog/5927350.sHtMl
+
+三、实战开发｜Practice
+原标题：golang 系统设计链路追踪架构简单讲解
+简介：网络读取超时设置连接挂起防护，设置网络读取超时时间，防止请求无限挂起不返回，占用连接资源。
+ | 原文链接：http://book.kppsas.asia/blog/6867043.sHtMl
+
+原标题：Debug：分布式会话时钟不同步令牌提前失效
+简介：golang context.Background 与 TODO 区别，Background 主流程根上下文，TODO 不确定用哪个上下文时使用。
+ | 原文链接：http://book.kppsas.asia/blog/8494479.sHtMl
+
+原标题：golang mysql innodb 事务隔离级别
+简介：新手参与开源社区贡献指南，介绍开源社区基础规则，讲解阅读 issue、提交 PR 流程，指导开发者参与开源贡献。
+ | 原文链接：http://book.kppsas.asia/blog/2695697.sHtMl
+
+原标题：OpenAPI 自动接口文档生成
+简介：golang 命令行交互 cobra 开发 cli，cobra 库开发功能完善命令行工具，子命令参数标志解析。
+ | 原文链接：http://book.kppsas.asia/blog/6389595.sHtMl
+
+原标题：golang 系统设计灰度发布实现思路
+简介：golang 容器健康检查接口开发，Go 开发 HTTP 健康接口，供容器编排工具探测实例存活状态。
+ | 原文链接：http://book.kppsas.asia/blog/2936869.sHtMl
+
+原标题：开源实践：开源项目本地调试构建排坑经验
+简介：golang go‑zero 监控指标埋点，go‑zero 内置 metrics 监控，上报业务指标对接监控平台。
+ | 原文链接：http://book.kppsas.asia/blog/3935357.sHtMl
+
+原标题：静态网页 HTML CSS 快速入门实战
+简介：golang bufio.Scanner 按行读取大文件，Scanner 逐行读取文本文件，处理超大日志 csv。
+ | 原文链接：http://book.kppsas.asia/blog/6413514.sHtMl
+
+原标题：golang html 模板渲染简单示例
+简介：极简方式搭建个人技术文档站点，使用轻量化工具快速部署文档站点，支持 markdown 编写，实现知识沉淀与对外分享。
+ | 原文链接：http://book.kppsas.asia/blog/9603414.sHtMl
+
+原标题：golang prometheus histogram 指标
+简介：ServiceWorker 缓存页面更新清理，处理 ServiceWorker 缓存，实现页面新版本更新，用户可以加载最新页面。
+ | 原文链接：http://book.kppsas.asia/blog/1824051.sHtMl
+
+原标题：安全实践：请求输入校验防御恶意参数
+简介：正则表达式优化 CPU 占满问题，优化正则表达式写法，避免回溯，防止正则运算 CPU 占用 100%。
+ | 原文链接：http://book.kppsas.asia/blog/5295734.sHtMl
+
+原标题：golang 系统设计线上故障排查完整流程
+简介：golang go 整洁架构代码组织实践，整洁架构依赖向内，解耦业务逻辑与外部基础设施。
+ | 原文链接：http://book.kppsas.asia/blog/2937247.sHtMl
+
+原标题：golang 系统设计配置敏感信息加密存储
+简介：golang rsa 公钥加密私钥解密，rsa 非对称加密，大文件分块加密，处理非对称加密长度限制。
+ | 原文链接：http://book.kppsas.asia/blog/2648369.sHtMl
+
+原标题：线上故障：热点Key打满RedisCPU节点过载
+简介：golang os 文件权限 mode，os.FileMode 文件权限，读写执行权限位，跨平台权限注意事项。
+ | 原文链接：http://book.kppsas.asia/blog/8595636.sHtMl
+
+原标题：架构笔记：数据脱敏架构接入层与存储层方案
+简介：golang grpc 双向流双向通信开发，grpc 双向流，服务端客户端持续互发消息，长连接流式业务场景。
+ | 原文链接：http://book.kppsas.asia/blog/8592914.sHtMl
+
+原标题：数据库死锁成因规避方案
+简介：多规则数据脱敏组件开发，封装通用脱敏组件，支持多种脱敏规则，项目多处复用脱敏逻辑。
+ | 原文链接：http://book.kppsas.asia/blog/9635736.sHtMl
+
+原标题：项目语义化版本号规范管理
+简介：golang grpc 重试机制客户端配置，grpc 客户端配置重试策略，临时故障自动重试，提升调用稳定性。
+ | 原文链接：http://book.kppsas.asia/blog/7051130.sHtMl
+
+原标题：设计思考：系统幂等性整体架构层面保障
+简介：golang channel 通道并发处理，讲解 Channel 用法，协程之间通过通道传递数据，做并发同步控制。
+ | 原文链接：http://book.kppsas.asia/blog/9747241.sHtMl
+
+原标题：Practice：实现异步回调处理通用组件封装
+简介：golang bufio 缓冲读写性能优化，bufio 带缓冲读写，减少系统调用，提升文件网络 IO 性能。
+ | 原文链接：http://book.kppsas.asia/blog/3047818.sHtMl
+
+原标题：Architecture：事件溯源架构模式适用业务场景
+简介：多套环境灵活切换配置方案，实现配置动态切换，通过环境变量、配置文件，快速切换开发测试生产环境。
+ | 原文链接：http://book.kppsas.asia/blog/2669291.sHtMl
+
+原标题：golang 系统设计读写分离架构示例
+简介：nestjs 框架模块化项目搭建，从零搭建 NestJS 项目，模块化拆分业务，搭建规范后端项目骨架。
+ | 原文链接：http://book.kppsas.asia/blog/8670258.sHtMl
+
+原标题：nodejs 跨域中间件配置细节
+简介：golang viper 多源配置管理实操，viper 读取配置文件环境变量命令行参数，多源配置优先级管理。
+ | 原文链接：http://book.kppsas.asia/blog/8376803.sHtMl
+
+原标题：nodejs http 服务性能调优实战
+简介：磁盘占满服务不可用清理方案，定位磁盘占用大文件，清理日志、缓存文件，恢复磁盘可用空间。
+ | 原文链接：http://book.kppsas.asia/blog/8570258.sHtMl
+
+原标题：golang 系统设计开源版本发布 changelog 维护
+简介：分布式 ID 全局唯一生成方案，讲解分布式 ID 生成思路，实现全局唯一 ID，满足分布式系统主键生成需求。
+ | 原文链接：http://book.kppsas.asia/blog/2936132.sHtMl
+
+原标题：golang 系统设计 ide 配置 go 开发效率提升技巧
+简介：golang json omitempty 零值坑，omitempty 会忽略零值，区分业务是否需要输出零值字段。
+ | 原文链接：http://book.kppsas.asia/blog/9694928.sHtMl
+
+原标题：golang 系统设计 rest 错误返回格式统一规范
+简介：golang http 服务优雅关闭完整示例，接收终止信号，停止接收新请求，等待现有请求处理完毕后退出服务。
+ | 原文链接：http://book.kppsas.asia/blog/3046257.sHtMl
+
+原标题：热更新开发环境配置教程
+简介：golang 协程泄露问题排查方法，识别 Go 协程泄露现象，分析泄露场景，给出排查定位协程泄露手段。
+ | 原文链接：http://book.kppsas.asia/blog/6314726.sHtMl
+
+原标题：golang 系统设计性能优化通用思路方法论
+简介：golang 限流器熔断降级组合使用，限流熔断降级组合架构，流量防护完整方案，保障服务稳定性。
+ | 原文链接：http://book.kppsas.asia/blog/0826162.sHtMl
+
+原标题：实战项目：编写Dockerfile多阶段构建减小镜像体积
+简介：golang io.Reader io.Writer 接口理解，io 读写接口，各类数据源统一抽象，适配 io 复制函数。
+ | 原文链接：http://book.kppsas.asia/blog/0017958.sHtMl
+
+原标题：部署实践：DockerCompose管理多服务环境
+简介：golang go 运行时获取编译信息，程序内部读取编译时间 git 版本，接口输出程序版本信息。
+ | 原文链接：http://book.kppsas.asia/blog/5269461.sHtMl
+
+原标题：CI 流水线超时时间延长配置
+简介：golang 容器健康检查接口开发，Go 开发 HTTP 健康接口，供容器编排工具探测实例存活状态。
+ | 原文链接：http://book.kppsas.asia/blog/3757026.sHtMl
+
+原标题：golang docker 基础命令实操汇总
+简介：golang 分页查询封装通用工具，封装 Go 通用分页工具，统一处理分页参数，简化业务分页接口开发。
+ | 原文链接：http://book.kppsas.asia/blog/5941303.sHtMl
+
+原标题：golang 系统设计主键 id 选型雪花自增对比
+简介：golang etcd key 监听变更 watch 机制，watch 监听 etcd 键变化，配置变更实时感知，实现配置热更新。
+ | 原文链接：http://book.kppsas.asia/blog/4169302.sHtMl
+
+原标题：golang 优雅停机服务关闭实现
+简介：golang 内存持续上涨定位思路，区分内存泄漏、缓存占用、GC 参数不合理，分步定位内存持续走高。
+ | 原文链接：http://book.kppsas.asia/blog/7035027.sHtMl
+
+原标题：Practice：实现接口签名、验签完整示例代码
+简介：golang 错误静默忽略风险规避，禁止空忽略错误，必须处理或者明确注释为什么忽略错误。
+ | 原文链接：http://book.kppsas.asia/blog/3713915.sHtMl
+
+原标题：Nginx 请求头大小上限调整
+简介：golang 服务注册 etcd 简单示例，etcd 实现服务注册发现，微服务实例注册元数据，客户端发现节点。
+ | 原文链接：http://book.kppsas.asia/blog/5940392.sHtMl
+
+原标题：编译打包产物依赖分析解读
+简介：golang io.LimitReader 限制读取字节数，LimitReader 限制最大读取，防止读取超大数据。
+ | 原文链接：http://book.kppsas.asia/blog/7314938.sHtMl
+
+原标题：极简 API 网关路由转发实现
+简介：WSL 搭建 Windows Linux 开发环境，配置 WSL 环境，在 Windows 系统使用 Linux 工具链，适配 Linux 开发项目。
+ | 原文链接：http://book.kppsas.asia/blog/3136139.sHtMl
+
+原标题：golang 跨域处理中间件编写
+简介：react hooks 常见陷阱避坑指南，梳理 React Hooks 高频踩坑点，依赖数组、闭包陷阱，写出稳定组件。
+ | 原文链接：http://book.kppsas.asia/blog/0935928.sHtMl
+
+原标题：开发环境变量配置全平台教程
+简介：golang go 容器 heap 堆实现优先队列，实现 heap 接口，构建优先队列，任务优先级调度。
+ | 原文链接：http://book.kppsas.asia/blog/9268395.sHtMl
+
+原标题：多线程线程安全脏数据规避
+简介：线程调度优化减少上下文切换，优化线程数量，减少线程频繁切换，降低 CPU 上下文切换开销。
+ | 原文链接：http://book.kppsas.asia/blog/2534691.sHtMl
+
+四、架构设计｜Architecture
+原标题：golang mysql json 字段查询使用
+简介：golang channel 关闭规则与坑点，关闭已经关闭 channel 会 panic，判断 channel 是否关闭正确写法。
+ | 原文链接：http://book.kppsas.asia/blog/6471684.sHtMl
+
+原标题：golang consul 服务发现简单示例
+简介：CI 流水线超时时间延长配置，调大 CI 任务超时阈值，解决构建任务耗时较长被流水线强制终止。
+ | 原文链接：http://book.kppsas.asia/blog/0536737.sHtMl
+
+原标题：运维笔记：服务器磁盘内存监控告警配置
+简介：JSON XML 数据解析处理示例，演示两种格式数据解析与序列化，增加异常捕获，处理格式错乱导致解析失败。
+ | 原文链接：http://book.kppsas.asia/blog/4758360.sHtMl
+
+原标题：开发复盘：百万数据批量导入数据库优化方案
+简介：SSH 密钥配置 GitHub 免密登录，分步生成配置 SSH 密钥，实现 GitHub 免密推送拉取，免去重复输入账号密码的麻烦。
+ | 原文链接：http://book.kppsas.asia/blog/9602892.sHtMl
+
+原标题：Architecture：静态配置与动态配置架构分离
+简介：golang go math 大数高精度计算，math/big 处理超大整数、高精度浮点数，金额大数运算。
+ | 原文链接：http://book.kppsas.asia/blog/6268579.sHtMl
+
+原标题：安全实践：接口错误信息不要暴露内部细节
+简介：CI 流水线超时时间延长配置，调大 CI 任务超时阈值，解决构建任务耗时较长被流水线强制终止。
+ | 原文链接：http://book.kppsas.asia/blog/5258362.sHtMl
+
+原标题：OpenSource：如何高效阅读大型开源项目源码
+简介：golang go 多版本管理 gvm 使用，gvm 管理多个 go sdk 版本，快速切换不同 go 版本做项目开发。
+ | 原文链接：http://book.kppsas.asia/blog/0714946.sHtMl
+
+原标题：架构笔记：任务调度系统架构设计与可靠性
+简介：Shell 运维脚本服务器效率提升，编写常用运维 Shell 脚本，自动化服务器运维操作，减少手工重复工作。
+ | 原文链接：http://book.kppsas.asia/blog/8597969.sHtMl
+
+原标题：性能复盘：网络IO优化减少接口等待时间
+简介：golang cobra 命令行参数配置绑定，cobra 绑定配置文件环境变量命令行参数，多源配置合并。
+ | 原文链接：http://book.kppsas.asia/blog/5230282.sHtMl
+
+原标题：golang 系统设计技术文档编写最佳实践
+简介：golang go 信号处理优雅重启实现，USR2 触发程序重启，不关闭监听 socket 实现零停机升级。
+ | 原文链接：http://book.kppsas.asia/blog/2926040.sHtMl
+
+原标题：实践：多配置文件合并加载组件实现
+简介：单元测试用例编写入门实操，讲解测试用例设计思路，演示基础单元测试代码，提升代码健壮性，提前发现逻辑 bug。
+ | 原文链接：http://book.kppsas.asia/blog/3006145.sHtMl
+
+原标题：时间同步修复令牌提前过期
+简介：包管理器依赖冲突解决方案，分析依赖冲突产生根源，提供版本调整、锁定依赖等手段，解决项目依赖报错问题。
+ | 原文链接：http://book.kppsas.asia/blog/2669473.sHtMl
+
+原标题：新手向：配置项目eslint/prettier代码格式化
+简介：Fork 开源项目同步上游代码，Fork 开源仓库之后，配置上游源，同步官方最新代码，保持代码版本对齐。
+ | 原文链接：http://book.kppsas.asia/blog/1714947.sHtMl
+
+原标题：golang elasticsearch 索引设计思路
+简介：数据库连接及时关闭连接泄漏，确保数据库连接使用完毕释放归还连接池，杜绝连接泄漏耗尽连接。
+ | 原文链接：http://book.kppsas.asia/blog/5267259.sHtMl
+
+原标题：数据库读写分离性能优化
+简介：Nginx 缓冲区调优大文件上传，调大 Nginx 请求缓冲区，支持客户端上传大体积文件，避免上传被截断。
+ | 原文链接：http://book.kppsas.asia/blog/9603839.sHtMl
+
+原标题：数据库分表路由写入分片修正
+简介：golang bufio 缓冲读写性能优化，bufio 带缓冲读写，减少系统调用，提升文件网络 IO 性能。
+ | 原文链接：http://book.kppsas.asia/blog/9007013.sHtMl
+
+原标题：开发记录：数据库悲观锁乐观锁业务场景实践
+简介：golang https 客户端跳过证书校验，开发测试环境跳过 tls 证书校验，仅用于内网测试禁止生产使用。
+ | 原文链接：http://book.kppsas.asia/blog/2546465.sHtMl
+
+原标题：开发复盘：分布式会话共享多种方案实践
+简介：golang cgo 调用 C 语言代码示例，cgo 调用 C 函数，go 与 C 互相调用，对接 C 语言库能力。
+ | 原文链接：http://book.kppsas.asia/blog/9691725.sHtMl
+
+?

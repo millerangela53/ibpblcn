@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：踩坑记录：端口被占用导致服务启动失败
+简介：golang go sum 校验失败处理方案，go sum 校验不匹配，排查网络代理，清理缓存解决校验报错。
+ | 原文链接：m.kr5ruc.asia/Article/details/8513818.sHtML
+
+原标题：golang 日志脱敏敏感字段过滤
+简介：golang redis scan 遍历 key 避免阻塞，使用 scan 迭代遍历 redis 键，不用 keys 命令，防止阻塞 redis 服务。
+ | 原文链接：m.kr5ruc.asia/Article/details/2927361.sHtML
+
+原标题：golang 系统设计 tcc 事务简单原理业务示例
+简介：容器软链接文件权限修复，修复容器内软链接文件权限，让程序能够正常读取软链接指向的文件。
+ | 原文链接：m.kr5ruc.asia/Article/details/7391793.sHtML
+
+原标题：Security：反序列化漏洞风险识别与规避
+简介：golang go‑zero 监控指标埋点，go‑zero 内置 metrics 监控，上报业务指标对接监控平台。
+ | 原文链接：m.kr5ruc.asia/Article/details/5923037.sHtML
+
+原标题：golang 系统设计用户签到统计方案
+简介：前端权限路由动态生成实现，根据后端返回权限，动态生成前端路由菜单，实现页面权限控制。
+ | 原文链接：m.kr5ruc.asia/Article/details/2665776.sHtML
+
+原标题：golang 优雅处理数据库事务
+简介：golang context 上下文传参讲解，讲解 Context 使用场景，传递元数据、控制协程超时取消，规范协程控制。
+ | 原文链接：m.kr5ruc.asia/Article/details/7030221.sHtML
+
+原标题：golang 灰度权重流量分发简单实现
+简介：golang go race 竞态检测工具，‑race 检测数据竞争，编译运行检测并发读写数据竞争 bug。
+ | 原文链接：m.kr5ruc.asia/Article/details/4719003.sHtML
+
+原标题：实战：Redis集群本地搭建与功能验证
+简介：golang 路径处理 filepath 包规范写法，使用 filepath 处理路径拼接分割，自动适配操作系统路径分隔符。
+ | 原文链接：m.kr5ruc.asia/Article/details/7698557.sHtML
+
+原标题：golang 系统设计限流算法原理代码实现
+简介：golang go 爬虫代理池轮换使用，http 代理池轮换，请求自动切换代理 IP，突破访问限制。
+ | 原文链接：m.kr5ruc.asia/Article/details/3295768.sHtML
+
+原标题：排错：打包后资源路径，开发生产行为不一致
+简介：golang 图片处理 go 图片裁剪压缩，golang 图像处理库，图片缩放裁剪水印，服务端图片处理。
+ | 原文链接：m.kr5ruc.asia/Article/details/6012190.sHtML
+
+原标题：golang 系统设计限流服务架构讲解
+简介：接口签名校验防篡改实现，实现请求签名验签逻辑，校验请求参数未被篡改，提升接口调用安全性。
+ | 原文链接：m.kr5ruc.asia/Article/details/2145368.sHtML
+
+原标题：Security：RPC调用身份认证安全加固
+简介：golang redis pipeline 与 txpipeline 区别，区分普通管道与事务管道，根据业务场景选择合适批量执行方案。
+ | 原文链接：m.kr5ruc.asia/Article/details/1039080.sHtML
+
+原标题：安全复盘：消息队列未授权访问安全加固
+简介：前端图片懒加载性能优化，实现图片懒加载，页面可视区域才加载图片，减少页面初始网络请求。
+ | 原文链接：m.kr5ruc.asia/Article/details/7035694.sHtML
+
+原标题：性能调优：MySQL查询性能优化实战清单
+简介：golang clickhouse go 客户端数据写入，clickhouse‑go 客户端写入查询，海量时序数据分析业务。
+ | 原文链接：m.kr5ruc.asia/Article/details/9806769.sHtML
+
+原标题：golang 系统设计缓存热点 key 问题业务规避
+简介：golang go 爬虫代理池轮换使用，http 代理池轮换，请求自动切换代理 IP，突破访问限制。
+ | 原文链接：m.kr5ruc.asia/Article/details/6588658.sHtML
+
+原标题：Performance：避免全表扫描索引失效场景汇总
+简介：golang socket 文件描述符继承重启，父进程传递 listener fd 给子进程，实现 go 程序零停机热重启。
+ | 原文链接：m.kr5ruc.asia/Article/details/0923125.sHtML
+
+原标题：调试工具断点调试变量查看技巧
+简介：golang prometheus 指标埋点开发，业务埋点计数器、仪表盘、直方图，对接 prometheus 采集监控指标。
+ | 原文链接：m.kr5ruc.asia/Article/details/6934780.sHtML
+
+原标题：golang 系统设计单元测试 mock 外部依赖技巧
+简介：Mock 接口服务快速搭建实操，搭建模拟后端接口，自定义返回数据、延迟响应，前端开发阶段无需依赖真实后端服务。
+ | 原文链接：m.kr5ruc.asia/Article/details/3714692.sHtML
+
+原标题：实战项目：本地搭建Prometheus监控完整demo
+简介：golang jwt jwk 公钥验证令牌，使用 jwk 公钥校验 jwt，非对称方式签发校验令牌，提升安全性。
+ | 原文链接：m.kr5ruc.asia/Article/details/9378146.sHtML
+
+原标题：golang 系统设计配置敏感信息加密存储方案
+简介：异步编程 Promise 执行流程解析，拆解异步执行顺序，理解回调与 Promise 差异，理清异步场景下代码执行逻辑。
+ | 原文链接：m.kr5ruc.asia/Article/details/6346704.sHtML
+
+原标题：golang 协程泄露问题排查方法
+简介：集成测试业务流程编写示例，编写业务流程集成测试，覆盖完整业务链路，验证模块之间协同工作是否正常。
+ | 原文链接：m.kr5ruc.asia/Article/details/4352313.sHtML
+
+原标题：项目实践：多租户数据隔离三种方案实操对比
+简介：golang gin 获取客户端真实 IP，多层代理场景正确拿到用户真实访问 IP，避免拿到网关代理内网地址。
+ | 原文链接：m.kr5ruc.asia/Article/details/0343568.sHtML
+
+原标题：golang 系统设计压测环境隔离避免影响生产
+简介：golang go 项目安全检查漏洞扫描，扫描 go 项目依赖漏洞，代码安全审计，规避安全风险。
+ | 原文链接：m.kr5ruc.asia/Article/details/6032423.sHtML
+
+原标题：开源实践：维护开源项目Issue管理经验总结
+简介：express 中间件开发业务实践，开发 Express 自定义中间件，拦截请求，实现鉴权、日志记录等通用逻辑。
+ | 原文链接：m.kr5ruc.asia/Article/details/4723661.sHtML
+
+原标题：eslint prettier 代码规范落地
+简介：golang redis scan 遍历 key 避免阻塞，使用 scan 迭代遍历 redis 键，不用 keys 命令，防止阻塞 redis 服务。
+ | 原文链接：m.kr5ruc.asia/Article/details/0480370.sHtML
+
+原标题：golang 系统设计缓存过期时间设置原则梳理
+简介：golang go http 安全头配置实践，设置 http 安全响应头，防范 XSS、点击劫持，提升 web 服务安全性。
+ | 原文链接：m.kr5ruc.asia/Article/details/0488194.sHtML
+
+原标题：入门实践：使用模板快速生成项目脚手架
+简介：golang os.Exit 退出程序注意 defer 不执行，os.Exit 会直接退出，不会执行 defer，优雅退出不要直接 os.Exit。
+ | 原文链接：m.kr5ruc.asia/Article/details/4364525.sHtML
+
+原标题：全局异常处理器接口返回统一
+简介：时间同步修复令牌提前过期，服务器时间不同步导致 JWT 令牌提前过期，同步系统时间解决异常。
+ | 原文链接：m.kr5ruc.asia/Article/details/2039193.sHtML
+
+原标题：Issue：本地可以访问，容器内部网络不通
+简介：golang 分布式锁 redis 实现，基于 Redis 实现 Go 分布式锁，解决多实例并发竞争资源问题。
+ | 原文链接：m.kr5ruc.asia/Article/details/3615815.sHtML
+
+原标题：golang 系统设计 io 瓶颈磁盘网络优化实践
+简介：nestjs 权限守卫鉴权实现方案，使用 Nest 守卫实现接口鉴权，角色权限控制，拦截未授权接口访问。
+ | 原文链接：m.kr5ruc.asia/Article/details/2689914.sHtML
+
+原标题：请求工具封装统一异常处理
+简介：golang regexp 正则捕获分组提取数据，正则捕获分组提取子匹配内容，拿到需要业务字段。
+ | 原文链接：m.kr5ruc.asia/Article/details/7033523.sHtML
+
+原标题：golang redis 批量 pipeline 实践
+简介：nodejs redis 缓存业务实战，Node 对接 Redis 实现业务缓存，缓存热点查询结果，减轻数据库压力。
+ | 原文链接：m.kr5ruc.asia/Article/details/2145089.sHtML
+
+原标题：设计思考：防雪崩，系统过载保护架构设计
+简介：golang go mod why 查询依赖引入原因，go mod why 查询为什么引入某个包，理清依赖来源。
+ | 原文链接：m.kr5ruc.asia/Article/details/2241301.sHtML
+
+原标题：Nginx 静态代理负载均衡全套配置
+简介：golang tidb 数据库 go 项目适配，go 程序适配 tidb，兼容 mysql 协议，分布式数据库业务开发。
+ | 原文链接：m.kr5ruc.asia/Article/details/6584589.sHtML
+
+原标题：踩坑记录：乐观锁版本号处理不当更新失败
+简介：主干开发团队代码合并策略，讲解主干开发模式，团队代码合并流程，适合高频迭代的团队协作模式。
+ | 原文链接：m.kr5ruc.asia/Article/details/8224702.sHtML
+
+原标题：实战：容器内执行调试排错完整实操流程
+简介：Cookie 跨环境登录配置调整，调整 Cookie 域、Secure 属性，适配开发测试生产环境，修复登录失效。
+ | 原文链接：m.kr5ruc.asia/Article/details/8713657.sHtML
+
+原标题：golang redis 持久化 RDB AOF 对比
+简介：多环境配置中心灵活切换方案，简易配置中心实现，支持多套环境配置，动态下发无需重启服务。
+ | 原文链接：m.kr5ruc.asia/Article/details/7158369.sHtML
+
+原标题：限流组件计数器令牌桶模式实现
+简介：golang go select 多路等待 channel，select 等待多个 channel，default 非阻塞，超时等待 channel。
+ | 原文链接：m.kr5ruc.asia/Article/details/0344759.sHtML
+
+原标题：入门实践：本地简单代理服务搭建
+简介：磁盘占满服务不可用清理方案，定位磁盘占用大文件，清理日志、缓存文件，恢复磁盘可用空间。
+ | 原文链接：m.kr5ruc.asia/Article/details/4899999.sHtML
+
+原标题：性能笔记：HTTP连接复用性能优化实践
+简介：golang influxdb 时序数据库读写操作，influxdb 存储时序指标，业务指标监控数据存取。
+ | 原文链接：m.kr5ruc.asia/Article/details/3701003.sHtML
+
+
+二、踩坑排错｜Troubleshooting
+原标题：快速入门异步编程基础模型
+简介：golang udp 服务端客户端开发示例，golang 实现 UDP 服务收发数据包，实现 udp 协议通信程序。
+ | 原文链接：m.kr5ruc.asia/Article/details/2697978.sHtML
+
+原标题：上传接口跨域配置特殊适配
+简介：网关集成鉴权限流日志一体化，在网关层整合鉴权、限流、请求日志，统一对入口请求做管控处理。
+ | 原文链接：m.kr5ruc.asia/Article/details/8145467.sHtML
+
+原标题：实战：Redis管道批量操作性能优化实践
+简介：golang excel 生成导出高性能方案，excelize 流式生成 excel，百万行数据导出，规避内存溢出。
+ | 原文链接：m.kr5ruc.asia/Article/details/5906089.sHtML
+
+原标题：golang 系统设计链路数据存储选型对比讲解
+简介：SSH 密钥配置 GitHub 免密登录，分步生成配置 SSH 密钥，实现 GitHub 免密推送拉取，免去重复输入账号密码的麻烦。
+ | 原文链接：m.kr5ruc.asia/Article/details/2676871.sHtML
+
+原标题：优化实践：业务定时任务错开高峰避免资源争抢
+简介：golang 链路追踪简易实现方案，简易链路追踪实现，传递 traceId，记录调用链路，方便排查慢调用。
+ | 原文链接：m.kr5ruc.asia/Article/details/8112134.sHtML
+
+原标题：golang 系统设计 mq 消息顺序性保证思路
+简介：golang 协程 panic 捕获防止崩溃，协程内部捕获 panic，防止单个协程恐慌造成整个 Go 进程崩溃。
+ | 原文链接：m.kr5ruc.asia/Article/details/5890033.sHtML
+
+原标题：golang 项目 go mod 依赖管理
+简介：Redis 大 key 拆分集群卡顿解决，拆分 Redis 超大 Key，避免大 key 操作造成 Redis 集群卡顿阻塞。
+ | 原文链接：m.kr5ruc.asia/Article/details/4799911.sHtML
+
+原标题：实践：接口参数自动校验业务落地实践
+简介：golang goroutine 协程基础实操，Goroutine 基础实操案例，启动协程执行任务，理解轻量级协程特性。
+ | 原文链接：m.kr5ruc.asia/Article/details/6012445.sHtML
+
+原标题：记一次分布式锁失效引发的数据错乱问题
+简介：golang go 并发模式 or‑channel 信号合并，合并多个 done 信号，任意一个完成触发退出逻辑。
+ | 原文链接：m.kr5ruc.asia/Article/details/4896881.sHtML
+
+原标题：部署复盘：数据库主从备份恢复演练实践
+简介：大文件导出内存溢出防护，流式处理大文件导出，边读边写，不把全部数据加载内存，规避 OOM。
+ | 原文链接：m.kr5ruc.asia/Article/details/5990024.sHtML
+
+原标题：golang 系统设计开源项目依赖版本升级维护
+简介：golang 分布式事务 seata go 客户端，seata‑go 实现分布式事务，保证跨库业务数据最终一致性。
+ | 原文链接：m.kr5ruc.asia/Article/details/3788801.sHtML
+
+原标题：Hands‑on：简易的事件订阅发布组件开发实践
+简介：golang grpc 负载均衡客户端实现，grpc 客户端负载均衡，轮询随机权重，分发请求到多个服务实例。
+ | 原文链接：m.kr5ruc.asia/Article/details/4710323.sHtML
+
+原标题：运维笔记：系统监控指标大盘搭建实操
+简介：golang context 包标准用法规范，context 传递请求元数据、超时、取消，函数第一个参数传入 ctx。
+ | 原文链接：m.kr5ruc.asia/Article/details/0355479.sHtML
+
+原标题：golang redis lua 脚本开发调试
+简介：golang 命令行彩色输出终端，终端彩色文字输出，进度条交互，优化命令行工具用户体验。
+ | 原文链接：m.kr5ruc.asia/Article/details/6012245.sHtML
+
+原标题：Security：接口鉴权越权漏洞检测与修复
+简介：CORS 跨域问题多种解决方案，对比 CORS、代理等不同跨域方案优缺点，根据业务场景选择合适的跨域处理方式。
+ | 原文链接：m.kr5ruc.asia/Article/details/9265356.sHtML
+
+原标题：golang 系统设计消息重试次数间隔策略设置
+简介：golang time 时间比较 Before After Equal，时间比较不要直接减，使用内置方法判断时间先后。
+ | 原文链接：m.kr5ruc.asia/Article/details/1509789.sHtML
+
+原标题：新手指南：本地防火墙端口访问失败排查
+简介：golang redis bloom 布隆过滤器 go‑redis，go‑redis 布隆过滤器，海量数据判断是否存在，减少数据库查询。
+ | 原文链接：m.kr5ruc.asia/Article/details/6818089.sHtML
+
+原标题：golang 系统设计代码安全审计简单思路
+简介：nodejs 集成测试业务流程编写，编写 Node 集成测试，调用真实接口，验证完整业务链路执行结果。
+ | 原文链接：m.kr5ruc.asia/Article/details/9243534.sHtML
+
+原标题：架构复盘：多级缓存架构，本地缓存+分布式缓存
+简介：手写简易 RPC 服务通信原型，手写极简 RPC 原型，理解服务注册、网络传输、方法调用底层逻辑。
+ | 原文链接：m.kr5ruc.asia/Article/details/3799700.sHtML
+
+原标题：golang redis 集群 hash 槽讲解
+简介：nodejs 单元测试 jest 实操教程，Jest 单元测试实操，编写测试用例，mock 依赖，验证业务逻辑正确性。
+ | 原文链接：m.kr5ruc.asia/Article/details/1452437.sHtML
+
+原标题：Security：服务器最小权限账号运维实践
+简介：DNS 解析异常第三方调用故障，排查 DNS 解析故障，修复域名解析，恢复第三方接口网络调用。
+ | 原文链接：m.kr5ruc.asia/Article/details/7010935.sHtML
+
+原标题：Git 误提交撤销回退实操教程
+简介：golang redis geo 地理位置存储查询，Redis GEO 存储经纬度，查询附近点位，实现附近人业务功能。
+ | 原文链接：m.kr5ruc.asia/Article/details/7012437.sHtML
+
+原标题：坑点：依赖包内部携带恶意代码供应链风险
+简介：线上接口超时故障排查思路，从网络、数据库、代码逻辑逐层排查接口超时，定位慢请求根因。
+ | 原文链接：m.kr5ruc.asia/Article/details/0233548.sHtML
+
+原标题：零基础理解会话、Cookie、Session基础
+简介：golang contract 契约测试微服务，微服务契约测试，保证接口变更不破坏调用方，提前发现兼容性问题。
+ | 原文链接：m.kr5ruc.asia/Article/details/5989770.sHtML
+
+原标题：HelloShell：入门常用shell脚本编写
+简介：重复提交幂等防护再次讲解，梳理前端重复点击、网络重试场景，落地接口幂等，杜绝重复业务。
+ | 原文链接：m.kr5ruc.asia/Article/details/0346688.sHtML
+
+原标题：golang k8s 持久化 pv pvc 使用实操
+简介：WSL 文件权限访问异常修复，处理 WSL 环境文件权限错乱，调整权限配置，实现文件正常读写访问。
+ | 原文链接：m.kr5ruc.asia/Article/details/9123317.sHtML
+
+原标题：进程线程并发基础概念讲解
+简介：golang errors.Is errors.As 错误判断，判断是否为指定错误类型，提取自定义错误信息，错误处理进阶。
+ | 原文链接：m.kr5ruc.asia/Article/details/6012267.sHtML
+
+原标题：golang 系统设计消息队列 topic 设计原则梳理
+简介：golang go 调用动态链接库 so 文件，go 加载 so 动态库调用函数，复用编译好的 C 动态库。
+ | 原文链接：m.kr5ruc.asia/Article/details/6609912.sHtML
+
+原标题：monorepo 项目多包管理最佳实践
+简介：golang grpc 重试机制客户端配置，grpc 客户端配置重试策略，临时故障自动重试，提升调用稳定性。
+ | 原文链接：m.kr5ruc.asia/Article/details/7112224.sHtML
+
+原标题：golang 系统设计 rest 资源命名规范汇总
+简介：简易日志收集集中管理方案，搭建轻量日志收集方案，把多服务日志汇总，集中检索查看日志信息。
+ | 原文链接：m.kr5ruc.asia/Article/details/5687790.sHtML
+
+原标题：golang mysql 行锁表锁场景区分
+简介：golang 僵尸进程处理 go 程序，正确等待子进程退出，避免产生僵尸进程，占用系统进程表。
+ | 原文链接：m.kr5ruc.asia/Article/details/6010336.sHtML
+
+原标题：WSL 内存上限限制防止资源耗尽
+简介：nodejs 跨域中间件配置细节，Express 跨域中间件配置细节，处理预检请求，修复偶现跨域失效。
+ | 原文链接：m.kr5ruc.asia/Article/details/3701102.sHtML
+
+原标题：安全笔记：XSS跨站脚本攻击防御落地实践
+简介：大文件导出内存溢出防护，流式处理大文件导出，边读边写，不把全部数据加载内存，规避 OOM。
+ | 原文链接：m.kr5ruc.asia/Article/details/1685676.sHtML
+
+原标题：golang 系统设计重试退避策略业务落地
+简介：golang base64 编码解码实操，Go Base64 编码解码示例，处理业务场景 Base64 格式数据转换。
+ | 原文链接：m.kr5ruc.asia/Article/details/2567771.sHtML
+
+原标题：golang 系统设计性能瓶颈定位完整方法论
+简介：golang defer 执行顺序与坑点，defer 后进先出，循环内部 defer 陷阱，资源释放正确写法。
+ | 原文链接：m.kr5ruc.asia/Article/details/4810214.sHtML
+
+原标题：nodejs http 服务性能调优实战
+简介：golang go 服务蓝绿发布实践思路，蓝绿两套实例，流量一键切换，回滚快速降低发布风险。
+ | 原文链接：m.kr5ruc.asia/Article/details/2359909.sHtML
+
+原标题：Spring 事务传播机制配置生效
+简介：golang go 包循环导入报错解决，A 导入 B B 导入 A，循环导入报错，重构代码拆分包消除循环依赖。
+ | 原文链接：m.kr5ruc.asia/Article/details/7820324.sHtML
+
+原标题：rebase 操作防止代码丢失
+简介：容器内存扩容 OOM 被杀死修复，调高容器内存限制，优化程序内存占用，避免程序被 OOM 终止。
+ | 原文链接：m.kr5ruc.asia/Article/details/5486870.sHtML
+
+原标题：golang redis 缓存雪崩完整处理
+简介：TLS 版本兼容 HTTPS 握手失败，兼容老旧 TLS 协议版本，修复部分客户端 HTTPS 握手失败无法访问。
+ | 原文链接：m.kr5ruc.asia/Article/details/3768703.sHtML
+
+原标题：防火墙 IP 白名单回调接口放行
+简介：前后端交互跨域问题完整处理，讲解跨域产生原理，列举多种解决方案，适配开发、生产不同环境的跨域处理。
+ | 原文链接：m.kr5ruc.asia/Article/details/2588989.sHtML
+
+三、实战开发｜Practice
+原标题：golang mongodb 文档结构设计原则
+简介：golang gorm 子查询嵌套查询写法，Gorm 实现子查询、嵌套查询，复杂条件查询简化代码编写。
+ | 原文链接：m.kr5ruc.asia/Article/details/6710334.sHtML
+
+原标题：golang 系统设计结构化日志字段规范约定
+简介：golang go 程序容器资源 requests limits，设置容器 cpu 内存配额，防止实例抢占集群资源，稳定调度。
+ | 原文链接：m.kr5ruc.asia/Article/details/9245545.sHtML
+
+原标题：踩坑记录：浮点数作为Rediskey匹配异常
+简介：nodejs 数据库连接池配置调优，调优 Node 数据库连接池参数，平衡性能与资源占用，避免连接耗尽。
+ | 原文链接：m.kr5ruc.asia/Article/details/5670324.sHtML
+
+原标题：浮点计算精度错误处理方案
+简介：nestjs 拦截器过滤器管道实战，实操 Nest 拦截器、异常过滤器、管道校验，处理请求与响应统一逻辑。
+ | 原文链接：m.kr5ruc.asia/Article/details/8110332.sHtML
+
+原标题：从零搭建简单的健康检查接口示例
+简介：golang go time 时区数据库内置，go 内置时区数据库，不用系统时区文件，容器时区不依赖系统。
+ | 原文链接：m.kr5ruc.asia/Article/details/9235645.sHtML
+
+原标题：实战：单元测试+集成测试完整项目落地实践
+简介：golang go 无锁并发编程技巧，原子操作 sync/atomic，简单场景替换锁，提升并发性能。
+ | 原文链接：m.kr5ruc.asia/Article/details/0678991.sHtML
+
+原标题：golang minio 预签名 url 临时访问
+简介：golang redis 客户端业务使用，Go Redis 客户端对接，实现缓存、计数器，适配各类 Redis 业务场景。
+ | 原文链接：m.kr5ruc.asia/Article/details/3487980.sHtML
+
+原标题：新手向：项目目录结构规范与含义解析
+简介：golang os 进程 pid 获取父进程 pid，os.Getpid 获取进程 id，获取父进程 pid，进程间识别。
+ | 原文链接：m.kr5ruc.asia/Article/details/3789968.sHtML
+
+原标题：golang 系统设计接口超时设计原则梳理
+简介：数据库主从延迟业务兼容处理，业务适配主从复制延迟，避免读取从库拿到还未同步完成旧数据。
+ | 原文链接：m.kr5ruc.asia/Article/details/9222353.sHtML
+
+原标题：golang 系统设计全局异常处理器实现
+简介：golang os.Exit 退出程序注意 defer 不执行，os.Exit 会直接退出，不会执行 defer，优雅退出不要直接 os.Exit。
+ | 原文链接：m.kr5ruc.asia/Article/details/4710213.sHtML
+
+原标题：读懂开源项目 README 实用技巧
+简介：ICMP 放通网络丢包问题修复，放开 ICMP 协议，解决 MTU 问题导致网络丢包，修复网络不稳定现象。
+ | 原文链接：m.kr5ruc.asia/Article/details/2455468.sHtML
+
+原标题：golang grafana 面板变量模板制作
+简介：golang hertz http 框架快速上手，hertz 高性能 http 框架，路由中间件参数校验快速开发接口服务。
+ | 原文链接：m.kr5ruc.asia/Article/details/8143424.sHtML
+
+原标题：部署实践：内网开发环境代理配置实践
+简介：站内邮件消息通知功能开发，实现站内消息、邮件通知推送，业务事件触发通知，提醒用户业务状态变更。
+ | 原文链接：m.kr5ruc.asia/Article/details/7010224.sHtML
+
+原标题：性能笔记：服务CPU高负载定位分析完整步骤
+简介：golang proto 可选字段处理方案，protobuf 可选字段正确判断，区分未赋值与零值，业务逻辑不出现偏差。
+ | 原文链接：m.kr5ruc.asia/Article/details/2579880.sHtML
+
+原标题：golang 优雅处理数据库事务
+简介：golang gorm 预加载关联查询优化，GORM 预加载关联数据，避免 N+1 查询问题，提升数据库查询性能。
+ | 原文链接：m.kr5ruc.asia/Article/details/5886880.sHtML
+
+原标题：复盘总结：缓存改造业务落地踩坑复盘
+简介：安全组端口开放网络访问，调整服务器安全组规则，开放业务需要端口，恢复外部网络访问服务。
+ | 原文链接：m.kr5ruc.asia/Article/details/8719102.sHtML
+
+原标题：nodejs 数据库连接池配置调优
+简介：golang go 种子初始化 rand 随机，rand 初始化种子，不初始化会固定序列，理解随机数种子行为。
+ | 原文链接：m.kr5ruc.asia/Article/details/8032030.sHtML
+
+原标题：避坑：文件锁处理不当多进程竞争死锁
+简介：异步任务堆积消费能力优化，处理消息任务堆积问题，提升消费处理速度，恢复队列正常处理水位。
+ | 原文链接：m.kr5ruc.asia/Article/details/9234880.sHtML
+
+原标题：Hands‑on：简易熔断逻辑状态机原型实现
+简介：golang 响应 body 流式返回大数据，http 流式输出数据，边生成边返回，无需在内存组装完整返回结果。
+ | 原文链接：m.kr5ruc.asia/Article/details/8224214.sHtML
+
+原标题：跨平台换行符统一异常修复
+简介：WebSocket 断线重连稳定优化，增加 WebSocket 断线自动重连逻辑，处理网络抖动，维持长连接稳定。
+ | 原文链接：m.kr5ruc.asia/Article/details/5124474.sHtML
+
+原标题：golang 系统设计字段命名类型选择最佳实践
+简介：golang bcrypt 密码哈希加密存储，bcrypt 做用户密码哈希，加盐存储密码，保障用户密码安全。
+ | 原文链接：m.kr5ruc.asia/Article/details/5877791.sHtML
+
+原标题：Performance：数据库大表优化，冷热数据分离
+简介：本地数据库开发环境搭建指南，讲解数据库安装配置、账号权限设置、连接测试，快速搭建用于开发调试的数据库实例。
+ | 原文链接：m.kr5ruc.asia/Article/details/7012244.sHtML
+
+原标题：调优方案：gzip压缩开启降低网络传输体积
+简介：golang 延迟队列实现方案对比，时间轮、redis zset 实现延迟队列，处理延时执行业务。
+ | 原文链接：m.kr5ruc.asia/Article/details/9343686.sHtML
+
+原标题：JWT 工具封装令牌刷新过期
+简介：golang 制品镜像版本号规范管理，镜像版本号结合 git commit，明确每个镜像对应代码版本便于追溯。
+ | 原文链接：m.kr5ruc.asia/Article/details/5987103.sHtML
+
+原标题：golang 信号量控制并发数量
+简介：golang wasm webassembly go 编译，go 编译为 wasm，浏览器执行 go 代码，拓展 go 运行场景。
+ | 原文链接：m.kr5ruc.asia/Article/details/6901044.sHtML
+
+原标题：nodejs 集群模式多核利用实现
+简介：大事务拆分回滚日志暴涨解决，拆分大型数据库事务，减少回滚日志生成量，避免磁盘被回滚日志占满。
+ | 原文链接：m.kr5ruc.asia/Article/details/9345865.sHtML
+
+原标题：golang github actions 缓存依赖提速
+简介：golang 系统 IO 阻塞 goroutine 场景，理解系统调用阻塞 M，P 会调度其他 M，掌握 go 调度行为。
+ | 原文链接：m.kr5ruc.asia/Article/details/4886780.sHtML
+
+原标题：安全笔记：HTTPSTLS配置安全加固实践
+简介：golang 分库分表 id 路由规则设计，分库分表 id 路由算法，id 映射库表，数据均匀打散避免热点分片。
+ | 原文链接：m.kr5ruc.asia/Article/details/6901929.sHtML
+
+原标题：golang 系统设计限流服务架构讲解
+简介：golang elasticsearch 客户端 golang 实操，es 客户端文档增删改查，条件搜索聚合统计对接搜索引擎。
+ | 原文链接：m.kr5ruc.asia/Article/details/3670032.sHtML
+
+原标题：架构复盘：慢查询治理架构层面优化手段
+简介：golang loki 日志收集 go 服务集成，日志输出适配 loki，标签携带 traceId，日志集中检索排查问题。
+ | 原文链接：m.kr5ruc.asia/Article/details/1263365.sHtML
+
+原标题：网关超时时间调优后端等待
+简介：golang defer 执行顺序与坑点，defer 后进先出，循环内部 defer 陷阱，资源释放正确写法。
+ | 原文链接：m.kr5ruc.asia/Article/details/2465781.sHtML
+
+原标题：数据库主从延迟业务兼容处理
+简介：golang http 文件下载断点续传服务，服务端实现断点续传，支持大文件分段下载，提升大文件下载稳定性。
+ | 原文链接：m.kr5ruc.asia/Article/details/9243559.sHtML
+
+原标题：新手教程：如何给开源项目提交第一个PR
+简介：golang go 包循环导入报错解决，A 导入 B B 导入 A，循环导入报错，重构代码拆分包消除循环依赖。
+ | 原文链接：m.kr5ruc.asia/Article/details/3778799.sHtML
+
+原标题：golang 系统设计日志级别业务使用原则梳理
+简介：golang go 网络编程 net 包基础，net 包 tcp udp socket 编程，监听接收连接，读写数据。
+ | 原文链接：m.kr5ruc.asia/Article/details/4679778.sHtML
+
+原标题：入门实践：简易进度条CLI工具实现demo
+简介：业务幂等键设计防重复逻辑，讲解幂等键设计思路，选择合适业务字段作为幂等标识，实现可靠防重复。
+ | 原文链接：m.kr5ruc.asia/Article/details/4890335.sHtML
+
+原标题：golang ci 流水线制品仓库上传下载
+简介：Nginx 静态代理负载均衡全套配置，一套 Nginx 配置示例，覆盖静态资源、反向代理、负载均衡场景。
+ | 原文链接：m.kr5ruc.asia/Article/details/1588800.sHtML
+
+原标题：服务健康检查告警监控体系
+简介：RPC 接口字段增减兼容处理，RPC 接口新增删除字段做好向前兼容，老版本服务不会解析报错崩溃。
+ | 原文链接：m.kr5ruc.asia/Article/details/5657911.sHtML
+
+原标题：golang 系统设计主干开发 trunk‑based 讲解
+简介：golang 本地消息表实现最终一致性，本地消息表 + 定时任务轮询，可靠消息实现分布式事务。
+ | 原文链接：m.kr5ruc.asia/Article/details/9214243.sHtML
+
+原标题：golang redis 热点 key 业务规避
+简介：golang http client Transport 参数调优，Transport 最大连接空闲连接，TLS 配置，http 客户端调优。
+ | 原文链接：m.kr5ruc.asia/Article/details/9345599.sHtML
+
+原标题：golang 系统设计 mq 故障降级业务策略
+简介：golang 静态文件服务搭建教程，Go 搭建静态文件服务，托管静态资源，实现文件直接对外访问。
+ | 原文链接：m.kr5ruc.asia/Article/details/1367997.sHtML
+
+四、架构设计｜Architecture
+原标题：数据库读写分离性能优化
+简介：golang rate 令牌桶限流器源码理解，拆解令牌桶限流核心逻辑，理解令牌生成消耗，掌握限流底层原理。
+ | 原文链接：m.kr5ruc.asia/Article/details/2698002.sHtML
+
+原标题：跨平台 uniapp 多端开发实操
+简介：容器软链接文件权限修复，修复容器内软链接文件权限，让程序能够正常读取软链接指向的文件。
+ | 原文链接：m.kr5ruc.asia/Article/details/8110324.sHtML
+
+原标题：踩坑记录：时间戳精度不一致引发判断错误
+简介：分页逻辑错误数据漏查修复，修复分页查询逻辑漏洞，解决分页漏数据、重复返回数据等业务问题。
+ | 原文链接：m.kr5ruc.asia/Article/details/6997802.sHtML
+
+原标题：Performance：缓存策略优化，降低数据库压力
+简介：系统字符集统一乱码修复，统一数据库、程序、操作系统字符集，解决中文乱码显示异常问题。
+ | 原文链接：m.kr5ruc.asia/Article/details/3780224.sHtML
+
+原标题：golang mongodb 索引优化查询速度
+简介：接口限流逻辑简单模拟实现，编写简易限流逻辑，限制接口访问频次，保护服务，避免短时间大量请求压垮系统。
+ | 原文链接：m.kr5ruc.asia/Article/details/9234357.sHtML
+
+原标题：项目实践：消息队列消息堆积模拟处理实践
+简介：golang socket 文件描述符继承重启，父进程传递 listener fd 给子进程，实现 go 程序零停机热重启。
+ | 原文链接：m.kr5ruc.asia/Article/details/8255576.sHtML
+
+原标题：Redis 分布式锁高并发安全实现
+简介：主干开发团队代码合并策略，讲解主干开发模式，团队代码合并流程，适合高频迭代的团队协作模式。
+ | 原文链接：m.kr5ruc.asia/Article/details/6901021.sHtML
+
+原标题：设计思考：系统幂等性整体架构层面保障
+简介：golang redis scan 遍历 key 避免阻塞，使用 scan 迭代遍历 redis 键，不用 keys 命令，防止阻塞 redis 服务。
+ | 原文链接：m.kr5ruc.asia/Article/details/8123358.sHtML
+
+原标题：CORS 跨域问题多种解决方案
+简介：分布式任务调度集群原型开发，开发简易分布式调度原型，集群多节点运行，保证任务只执行一次。
+ | 原文链接：m.kr5ruc.asia/Article/details/9264778.sHtML
+
+原标题：CORS 跨域问题多种解决方案
+简介：golang go‑zero api 接口开发与路由，go‑zero 编写 api 定义文件，生成代码开发 http 接口。
+ | 原文链接：m.kr5ruc.asia/Article/details/0345447.sHtML
+
+原标题：golang 系统设计批量处理优化业务性能
+简介：gRPC 服务端客户端入门示例，搭建 gRPC 服务端与调用客户端，学习 protobuf 定义，掌握 RPC 基础开发流程。
+ | 原文链接：m.kr5ruc.asia/Article/details/7102245.sHtML
+
+原标题：正则表达式优化 CPU 占满问题
+简介：echarts 大数据渲染性能调优，大数据量 ECharts 图表调优，数据采样、分片渲染，解决图表卡顿。
+ | 原文链接：m.kr5ruc.asia/Article/details/7021559.sHtML
+
+原标题：并发数据覆盖加锁安全处理
+简介：golang go 程序 CPU 占用高定位步骤，pprof 定位热点函数，分析 CPU 高占用，优化耗时代码逻辑。
+ | 原文链接：m.kr5ruc.asia/Article/details/9380461.sHtML
+
+原标题：golang 系统设计 go netpoll 多路复用简单理解
+简介：大事务拆分回滚日志暴涨解决，拆分大型数据库事务，减少回滚日志生成量，避免磁盘被回滚日志占满。
+ | 原文链接：m.kr5ruc.asia/Article/details/9726026.sHtML
+
+原标题：Redis 热点 key 拆分降低集群压力
+简介：ServiceWorker 缓存页面更新清理，处理 ServiceWorker 缓存，实现页面新版本更新，用户可以加载最新页面。
+ | 原文链接：m.kr5ruc.asia/Article/details/7061415.sHtML
+
+原标题：Hands‑on：简易连接池原型实现理解原理
+简介：golang 内存 dump 线上堆快照采集，线上生成内存 dump 文件，线下分析，定位内存泄漏问题。
+ | 原文链接：m.kr5ruc.asia/Article/details/8716956.sHtML
+
+原标题：TCP 心跳检测清理僵死连接
+简介：golang http body 必须关闭的重要性，无论成功失败必须关闭 request.Body，否则连接无法复用泄漏。
+ | 原文链接：m.kr5ruc.asia/Article/details/3036474.sHtML
+
+原标题：部署实践：服务器防火墙安全组配置实践
+简介：golang sftp 文件上传下载操作，sftp 协议远程文件上传下载，实现服务器之间文件传输功能。
+ | 原文链接：m.kr5ruc.asia/Article/details/1826941.sHtML
+
+?
